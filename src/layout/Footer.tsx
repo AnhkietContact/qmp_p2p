@@ -51,7 +51,7 @@ const Footer = () => {
                     <h3 className="font-semibold text-white font-rubik text-[22px]">
                       {product.name}
                     </h3>
-                    <ul className="flex items-center text-white font-rubik text-[20px] font-medium space-x-4 mt-4">
+                    <ul className="flex flex-col md:flex-row items-center text-white font-rubik text-[20px] font-medium space-x-4 mt-4">
                       {product.links.map((link, index) => (
                         <li key={index}>
                           <Link
@@ -142,7 +142,7 @@ export const Products = [
     links: [
       { label: "Contact", link: "/contact" },
       { label: "Privacy policy", link: "/privacy" },
-      { label: "User Privacy Policy", link: "/userprivacy" },
+      { label: "Terms of Service", link: "/terms" },
     ],
   },
 ];

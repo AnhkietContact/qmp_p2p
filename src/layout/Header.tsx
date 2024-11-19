@@ -34,8 +34,7 @@ const Header: React.FC = () => {
   return (
     <Fragment>
       <header
-        className={`${isScrolled} 
-         bg-[#FFF]  fixed top-0 left-0 w-full z-[9999] transition-all duration-300 ease-in-out`}
+        className={`${isScrolled} bg-[#FFF] shadow-md fixed top-0 left-0 w-full z-[9999] transition-all duration-300 ease-in-out`}
       >
         <div className="container py-5 flex justify-between items-center">
           {/* Logo */}
@@ -52,7 +51,7 @@ const Header: React.FC = () => {
           </div>
 
           {/* Navigation */}
-          <nav className="hidden xl:flex space-x-6 ">
+          <nav className="hidden xl:flex space-x-6">
             {Scrollheader.map((item) => (
               <Link
                 key={item.id}
@@ -85,9 +84,9 @@ const Header: React.FC = () => {
           </div>
         </div>
 
-        {/* Menu cho di động */}
+        {/* Menu cho di động với hiệu ứng trượt mượt */}
         {isMenuOpen && (
-          <nav className="lg:hidden bg-opacity-90 bg-[#141414] p-4">
+          <nav className="lg:hidden bg-white p-4">
             {Scrollheader.map((item) => (
               <Link
                 key={item.id}

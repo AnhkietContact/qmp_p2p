@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
             <div className="">
               <p className="mb-4 text-[16px] font-inter">Version: 1.5</p>
               <p className="mb-4 text-[16px] font-inter">
-                Last updated: November 19, 2024.
+                Last updated: November 20, 2024.
               </p>
             </div>
           </div>
