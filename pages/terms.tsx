@@ -22,37 +22,36 @@ const PrivacyPolicy: React.FC = () => {
           ACCEPTANCE OF TERMS OF SERVICE
         </h2>
         <p className="mb-4 ">
-          We appreciate your coming to Remitano.com. You ("User", "user", "You"
-          or "you") consent to the Terms of Service (these "Terms") by visiting,
-          accessing, or using Remitano.com and related application program
-          interfaces or mobile applications (the "Website" or "Site"). Please
-          read them carefully as you agree that you have read, understand, and
-          accept all of the terms and conditions, including our Privacy Policy,
-          Cookie Policy, and Prohibited Use Policy. To utilize some Additional
+          We appreciate your coming to P2P.com. You ("User", "user", "You" or
+          "you") consent to the Terms of Service (these "Terms") by visiting,
+          accessing, or using P2P.com and related application program interfaces
+          or mobile applications (the "Website" or "Site"). Please read them
+          carefully as you agree that you have read, understand, and accept all
+          of the terms and conditions, including our Privacy Policy, Cookie
+          Policy, and Prohibited Use Policy. To utilize some Additional
           Services, you might need to accept additional terms and conditions.
-          (if any). For the avoidance of doubt, Remitano does not offer
-          investment, tax, or legal advice, and you are solely responsible for
-          determining whether any investment, investment strategy, or associated
-          transaction is suitable for you. No Investment Advice or Intermediary:
-          For the avoidance of doubt, Remitano does not provide investment, tax
-          or legal advice. You are solely responsible for determining whether
-          any investment, investment strategy or related transaction is
-          appropriate based on your personal investment objectives, financial
-          situation and risk appetite. Remitano may provide educational
-          information regarding supported Digital Assets and Digital Assets not
-          supported by Remitano to enable users to learn more about such Digital
-          Assets. Information includes, but is not limited to, blog posts,
-          articles, links to third party content, news feeds, tutorials, and
-          videos. Information provided on the Remitano website or any such third
-          party website does not constitute investment, financial, trading or
-          other advice and the content of the website should not be treated.
-          Remitano does not endorse the purchase, acquisition, sale or
-          possession of digital assets. Remitano is not responsible for
-          decisions to buy, sell or retain Digital Assets based on information
-          provided by Remitano. The Terms constitute the agreement and
+          (if any). For the avoidance of doubt, P2P does not offer investment,
+          tax, or legal advice, and you are solely responsible for determining
+          whether any investment, investment strategy, or associated transaction
+          is suitable for you. No Investment Advice or Intermediary: For the
+          avoidance of doubt, P2P does not provide investment, tax or legal
+          advice. You are solely responsible for determining whether any
+          investment, investment strategy or related transaction is appropriate
+          based on your personal investment objectives, financial situation and
+          risk appetite. P2P may provide educational information regarding
+          supported Digital Assets and Digital Assets not supported by P2P to
+          enable users to learn more about such Digital Assets. Information
+          includes, but is not limited to, blog posts, articles, links to third
+          party content, news feeds, tutorials, and videos. Information provided
+          on the P2P website or any such third party website does not constitute
+          investment, financial, trading or other advice and the content of the
+          website should not be treated. P2P does not endorse the purchase,
+          acquisition, sale or possession of digital assets. P2P is not
+          responsible for decisions to buy, sell or retain Digital Assets based
+          on information provided by P2P. The Terms constitute the agreement and
           understanding regarding the use of any or all of the Services, and any
           manner of accessing them, between you and the following service
-          providers (“Remitano”, “we,” “us” or “our”).
+          providers (“P2P”, “we,” “us” or “our”).
         </p>
         <h2 className="text-[18px] font-rubik font-semibold mt-6 mb-2">
           1. INTRODUCTION
@@ -91,7 +90,7 @@ const PrivacyPolicy: React.FC = () => {
             review the Terms to ensure that you understand the terms and
             conditions that apply to your access to, and use of, the Services.
             If you have any questions regarding the use of the Website, please
-            contact support@remitano.com.
+            contact support@P2P.com.
           </p>
           <p>
             5. The Terms and any terms expressly incorporated herein apply to
@@ -130,8 +129,8 @@ const PrivacyPolicy: React.FC = () => {
             warrant that: You are at least 18 or are of legal age to form a
             binding contract under applicable laws. You have full legal capacity
             and sufficient authorizations to enter into these Terms. You have
-            not been previously suspended or removed from using the Remitano
-            Services. You do not have an existing Remitano Account. You are not
+            not been previously suspended or removed from using the P2P
+            Services. You do not have an existing P2P Account. You are not
             resident, located in, or otherwise attempting to access the Services
             from, or acting on behalf of a person or legal entity that is
             resident or located in a Restricted Location. If you act as an
@@ -332,7 +331,7 @@ const PrivacyPolicy: React.FC = () => {
               traded via the exchange services, or any P2P Digital Assets that
               are deposited or acquired by you through the P2P platform which
               allows users to buy and sell digital assets directly between
-              users, not directly with Remitano.
+              users, not directly with P2P.
             </li>
           </ul>
           <p>
@@ -377,14 +376,14 @@ const PrivacyPolicy: React.FC = () => {
             and risks.
           </p>
           <p>
-            8. When the Remitano Platform is unable to operate properly because
-            of the following circumstances and the user is unable to access the
+            8. When the P2P Platform is unable to operate properly because of
+            the following circumstances and the user is unable to access the
             Services or place or cancel an order, we assume no liability for
             damages. These circumstances include, but are not limited to:
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              system downtime during maintenance as announced by the Remitano
+              system downtime during maintenance as announced by the P2P
               Platform;
             </li>
             <li>telecom or networking equipment issues;</li>
@@ -403,7 +402,7 @@ const PrivacyPolicy: React.FC = () => {
               damages to users or other third parties caused by third parties.
             </li>
           </ul>
-          <p>10. In relation to the Services provided by Remitano:</p>
+          <p>10. In relation to the Services provided by P2P:</p>
           <ol className="list-decimal pl-6 space-y-2">
             <li>
               we reserve the right to process, cancel, correct, clawback, and/or
@@ -421,16 +420,16 @@ const PrivacyPolicy: React.FC = () => {
               prohibited use in accordance with these Terms. We reserve the
               right to rollback all the transactions of a certain period of time
               as described in the respective user agreement. In such instances,
-              Remitano will reverse the transaction and debit the corresponding
+              P2P will reverse the transaction and debit the corresponding
               Digital Assets from your account(s) to recover the Losses arising
               from such transaction, and we are under no obligation to reinstate
               any purchase or sale order at the same price or on the same terms
               as the canceled transaction; and/or
             </li>
             <li>
-              we strictly prohibit unfair trading behaviors. Remitano reserves
-              the right to enact, under its sole discretion, and take control
-              over your account, if you:
+              we strictly prohibit unfair trading behaviors. P2P reserves the
+              right to enact, under its sole discretion, and take control over
+              your account, if you:
             </li>
             <li>
               are involved in price manipulation, insider dealing, market
@@ -438,8 +437,8 @@ const PrivacyPolicy: React.FC = () => {
               to the market;
             </li>
             <li>
-              might be harming other users or Remitano by exploiting the
-              Service’s vulnerabilities or by other unreasonable means;
+              might be harming other users or P2P by exploiting the Service’s
+              vulnerabilities or by other unreasonable means;
             </li>
           </ol>
           <p>
@@ -459,7 +458,7 @@ const PrivacyPolicy: React.FC = () => {
           </p>
           <p>
             13. Users acknowledge that we may delist any Digital Asset from the
-            Remitano Platform at our sole discretion.
+            P2P Platform at our sole discretion.
           </p>
           <p>
             14. With regard to abnormal transaction handling, while using the
@@ -482,50 +481,49 @@ const PrivacyPolicy: React.FC = () => {
           </p>
         </div>
         <h2 className="text-[18px] font-rubik font-semibold mt-6 mb-2">
-          5. TRADING ON THE REMITANO
+          5. TRADING ON THE P2P
         </h2>
         <div className="ml-5 space-y-4 font-inter">
           <ol className="list-decimal pl-6 space-y-4">
             <li>
               A User may buy or sell a Digital Asset by placing an instruction
-              on the Remitano Platform (an “Order”) in one (1) Digital Asset
-              into another Digital Asset.
+              on the P2P Platform (an “Order”) in one (1) Digital Asset into
+              another Digital Asset.
             </li>
             <li>
               Users shall verify all transaction information prior to submitting
               an Order. Users acknowledge and agree that it is the sole
               responsibility of the User to ensure the validity and accuracy of
               an Order, including the details of the recipient of any Assets.
-              Remitano shall not be liable for the consequences of the User not
+              P2P shall not be liable for the consequences of the User not
               providing valid and accurate information when placing an Order.
             </li>
             <li>
-              The Remitano Platform is accessible twenty-four (24) hours a day,
-              seven (7) days a week and three hundred and sixty-five (365) days
-              a year, except for any period during which scheduled maintenance
-              or upgrades are being carried out, or in the event that the
-              Remitano Platform encounters an interruption or outage that is
-              unexpected or beyond its control.
+              The P2P Platform is accessible twenty-four (24) hours a day, seven
+              (7) days a week and three hundred and sixty-five (365) days a
+              year, except for any period during which scheduled maintenance or
+              upgrades are being carried out, or in the event that the P2P
+              Platform encounters an interruption or outage that is unexpected
+              or beyond its control.
             </li>
             <li>
-              Remitano may, at its sole discretion and without prior notice
-              close a User’s Account, or suspend a User’s access or use of the
-              Remitano Platform or the Services, refuse any Order submitted, or
-              impose limits on trading amounts on the Remitano Platform, if
-              Remitano deems that a User may have contravened applicable rules,
-              terms, and regulations.
+              P2P may, at its sole discretion and without prior notice close a
+              User’s Account, or suspend a User’s access or use of the P2P
+              Platform or the Services, refuse any Order submitted, or impose
+              limits on trading amounts on the P2P Platform, if P2P deems that a
+              User may have contravened applicable rules, terms, and
+              regulations.
             </li>
             <li>
-              A User may only place an Order using the Remitano Platform if the
+              A User may only place an Order using the P2P Platform if the
               User’s Account contains sufficient Assets to cover the Order and
               any associated fees. If the Account does not contain sufficient
-              Assets to complete an Order on the Remitano Platform, the User
-              will not be able to complete such Order on the Remitano Platform.
-              When a User places an Order, that quantity of the relevant Asset
-              (including any applicable Fees) is placed on hold in the Account
-              until the Order fills, expires, or is canceled. Any unfilled
-              portion of an Order will remain on hold until it fills, expires,
-              or is canceled.
+              Assets to complete an Order on the P2P Platform, the User will not
+              be able to complete such Order on the P2P Platform. When a User
+              places an Order, that quantity of the relevant Asset (including
+              any applicable Fees) is placed on hold in the Account until the
+              Order fills, expires, or is canceled. Any unfilled portion of an
+              Order will remain on hold until it fills, expires, or is canceled.
             </li>
             <li>
               A User may withdraw or cancel an Order after it is submitted, as
@@ -537,26 +535,25 @@ const PrivacyPolicy: React.FC = () => {
               <ul className="list-disc pl-6 space-y-2">
                 <li>Trades are irreversible once Orders are executed; and</li>
                 <li>
-                  while Remitano may, at its sole discretion, reverse a Trade
-                  under certain extraordinary conditions (including but not
-                  limited to breaches of the Applicable Laws and Regulations or
-                  Financial Crime), a User does not have a right to a reversal
-                  of a Trade.
+                  while P2P may, at its sole discretion, reverse a Trade under
+                  certain extraordinary conditions (including but not limited to
+                  breaches of the Applicable Laws and Regulations or Financial
+                  Crime), a User does not have a right to a reversal of a Trade.
                 </li>
               </ul>
             </li>
             <li>
-              The transaction history provided on the Remitano Platform is the
-              true and accurate record of a User’s transactions. It is a User’s
+              The transaction history provided on the P2P Platform is the true
+              and accurate record of a User’s transactions. It is a User’s
               responsibility to remain up to date on its transaction history and
               any Notices with respect to the User’s Account.
             </li>
             <li>
               Users understand and agree that there may be a delay in executing
-              a Trade on the Remitano Platform as a result of Remitano’s secure
-              trading protocols which require Digital Asset private keys to be
-              stored securely using a combination of online and offline storage
-              for added security.
+              a Trade on the P2P Platform as a result of P2P’s secure trading
+              protocols which require Digital Asset private keys to be stored
+              securely using a combination of online and offline storage for
+              added security.
             </li>
             <li>
               The User agrees and understands that part of or all of the
@@ -568,22 +565,20 @@ const PrivacyPolicy: React.FC = () => {
               published on the Website or by other means.
             </li>
             <li>
-              The User acknowledges and agrees that Remitano shall have, at
-              Remitano’s sole discretion, the right to suspend all or part of
-              the Services, or the User’s access to all or part of the Services,
-              whenever Remitano determines in its sole discretion that:
+              The User acknowledges and agrees that P2P shall have, at P2P’s
+              sole discretion, the right to suspend all or part of the Services,
+              or the User’s access to all or part of the Services, whenever P2P
+              determines in its sole discretion that:
               <ul className="list-disc pl-6 space-y-2">
                 <li>the User may have breached these Terms; or</li>
                 <li>
-                  the proper functioning of the Remitano Platform is in
-                  jeopardy.
+                  the proper functioning of the P2P Platform is in jeopardy.
                 </li>
               </ul>
             </li>
             <li>
               For the purposes of Clause 5.13(b), the proper functioning of the
-              Remitano Platform will be in jeopardy in the following
-              circumstances:
+              P2P Platform will be in jeopardy in the following circumstances:
               <ol className="list-decimal pl-6 space-y-2">
                 <li>
                   when a computer or telecommunications network ceases to
@@ -594,30 +589,29 @@ const PrivacyPolicy: React.FC = () => {
                   provision of the Services;
                 </li>
                 <li>
-                  when Remitano’s assets or the User’s Assets, or the Remitano
-                  Platform, are the subject of an attempted or actual malicious
-                  attack which may, among other things, result in the theft or
-                  loss of such assets;
+                  when P2P’s assets or the User’s Assets, or the P2P Platform,
+                  are the subject of an attempted or actual malicious attack
+                  which may, among other things, result in the theft or loss of
+                  such assets;
                 </li>
                 <li>
                   when an event affects the proper functioning of critical
-                  systems relied upon by the Remitano Platform, including the
-                  pricing system or any other system necessary for the provision
-                  of the Services;
+                  systems relied upon by the P2P Platform, including the pricing
+                  system or any other system necessary for the provision of the
+                  Services;
                 </li>
                 <li>
-                  when Remitano suspects unauthorized use of the Remitano
-                  Platform, or a breach of these Terms or Applicable Laws and
-                  Regulations;
+                  when P2P suspects unauthorized use of the P2P Platform, or a
+                  breach of these Terms or Applicable Laws and Regulations;
                 </li>
                 <li>
-                  when Remitano determines that it is necessary, in its sole
+                  when P2P determines that it is necessary, in its sole
                   discretion, to conduct investigations in light of its
                   requirements under Applicable Laws and Regulations or to
-                  ensure the proper functioning of the Remitano Platform;
+                  ensure the proper functioning of the P2P Platform;
                 </li>
                 <li>
-                  when for any other reason, Remitano determines in its sole
+                  when for any other reason, P2P determines in its sole
                   discretion that the suspension is necessary.
                 </li>
               </ol>
@@ -632,7 +626,7 @@ const PrivacyPolicy: React.FC = () => {
             <li>
               This Clause 6 provides Users with information about the risks
               associated with trading in Digital Assets and any other Services
-              provided by Remitano. Applicants and Users should read this Risk
+              provided by P2P. Applicants and Users should read this Risk
               Statement carefully before applying to open an Account and
               executing Trades.
             </li>
@@ -647,7 +641,7 @@ const PrivacyPolicy: React.FC = () => {
             <li>
               By opening an Account and undertaking Trades, a User is deemed to
               have reviewed, understood and accepted the risks associated with
-              the Services provided by Remitano.
+              the Services provided by P2P.
             </li>
             <li>
               The market for Digital Assets is very new and rapidly developing
@@ -655,12 +649,12 @@ const PrivacyPolicy: React.FC = () => {
               This Clause does not explain all of the risks or how such risks
               relate to your personal circumstances. It is important that you
               fully understand the risks involved before making a decision to
-              use Remitano Services.
+              use P2P Services.
             </li>
             <li>
               Users acknowledge and agree that it is the User’s responsibility
               to stay up to date with the updated Risk Statement published by
-              Remitano from time to time. Please refer Appendix I for Risk
+              P2P from time to time. Please refer Appendix I for Risk
               Disclosure.
             </li>
           </ol>
@@ -675,11 +669,11 @@ const PrivacyPolicy: React.FC = () => {
               any of the Services, you are required to provide accurate
               information for all fields on the registration page to verify your
               identity, along with affirming these Terms. By registering an
-              account with Remitano, You agree and represent that You will use
-              the Account only for yourself, and not on behalf of any third
-              party, unless approved by Remitano. You agree to provide us with
-              authentic information at registration and on an ongoing basis for
-              the purposes of identity verification and the detection of money
+              account with P2P, You agree and represent that You will use the
+              Account only for yourself, and not on behalf of any third party,
+              unless approved by P2P. You agree to provide us with authentic
+              information at registration and on an ongoing basis for the
+              purposes of identity verification and the detection of money
               laundering, terrorist financing, fraud, or any other financial
               crime, including without limitation a copy of your
               government-issued photo ID and evidence of residency such as a
@@ -699,8 +693,8 @@ const PrivacyPolicy: React.FC = () => {
               information.
             </li>
             <li>
-              Account Closure: You may request Remitano to close your account at
-              any time. Closing an account will not affect any rights and
+              Account Closure: You may request P2P to close your account at any
+              time. Closing an account will not affect any rights and
               obligations incurred prior to the date of account closure. You are
               responsible for any fees, costs, expenses, charges, or obligations
               (including, but not limited to, attorney and court fees or
@@ -709,9 +703,9 @@ const PrivacyPolicy: React.FC = () => {
               closing your account exceed the value in your account, you will be
               responsible for reimbursing us. You may not close any of your
               accounts to avoid paying any fees otherwise due or to avoid any
-              examination related to our AML Program. Remitano reserves its
-              absolute right to accept or reject an account closure request at
-              its sole discretion.
+              examination related to our AML Program. P2P reserves its absolute
+              right to accept or reject an account closure request at its sole
+              discretion.
             </li>
             <li>
               Account Suspension and Investigation: You agree and acknowledge
@@ -734,7 +728,7 @@ const PrivacyPolicy: React.FC = () => {
                 </li>
                 <li>
                   You/Your Account(s) are or have been operated in violation of
-                  any provision of the Remitano AML Program;
+                  any provision of the P2P AML Program;
                 </li>
                 <li>
                   Your Account is, or is related to any account that is, subject
@@ -846,18 +840,17 @@ const PrivacyPolicy: React.FC = () => {
               individual account; illegal check cash-out activity; or for any
               unlawful, illegal, fraudulent or harmful purpose or activity under
               Applicable Laws and Regulations. You agree to indemnify and hold
-              Remitano and their officers, directors, shareholders,
-              predecessors, successors in interest, employees, agents,
-              subsidiaries and affiliates, harmless from any demands, loss,
-              liability, claims or expenses (including attorneys’ fees) made by
-              any third party against Remitano or its affiliates due to or
-              arising out of or in connection with Your use of this Website or
-              Services.
+              P2P and their officers, directors, shareholders, predecessors,
+              successors in interest, employees, agents, subsidiaries and
+              affiliates, harmless from any demands, loss, liability, claims or
+              expenses (including attorneys’ fees) made by any third party
+              against P2P or its affiliates due to or arising out of or in
+              connection with Your use of this Website or Services.
             </li>
             <li>
               You are prohibited in any form from utilizing the Website to
               engage in illegal activities. Without the authorization or
-              permission of Remitano, you shall not use any of the commercial
+              permission of P2P, you shall not use any of the commercial
               activities in the name of this Website or in any form of the
               Website as a place, platform or medium for engaging in commercial
               activities.
@@ -867,16 +860,15 @@ const PrivacyPolicy: React.FC = () => {
               responsibility and legal consequences of any actions involving the
               Website and Services. In addition, you shall not infringe the
               legitimate rights and interests of any third party. Additionally,
-              if Remitano suffered losses as a result of your actions, Remitano
-              has the right to recover losses from you via legal actions or
-              other means.
+              if P2P suffered losses as a result of your actions, P2P has the
+              right to recover losses from you via legal actions or other means.
             </li>
             <li>
-              If you violate any obligation above, Remitano has the right to
-              take all necessary measures directly, including but not limited to
-              deleting the content posted by you, canceling the customer rating
-              and honor, freezing your balance, pausing or seizing your account
-              and illegal gains, and prosecution.
+              If you violate any obligation above, P2P has the right to take all
+              necessary measures directly, including but not limited to deleting
+              the content posted by you, canceling the customer rating and
+              honor, freezing your balance, pausing or seizing your account and
+              illegal gains, and prosecution.
             </li>
           </ol>
         </div>
@@ -890,7 +882,7 @@ const PrivacyPolicy: React.FC = () => {
               you. By using our Services, you agree to incur these fees.
             </li>
             <li>
-              Remitano has the right to set and modify its fee structure at its
+              P2P has the right to set and modify its fee structure at its
               discretion. We may also start charging fees on free services.
             </li>
             <li>
@@ -958,16 +950,15 @@ const PrivacyPolicy: React.FC = () => {
         </h2>
         <div className="ml-5 space-y-4 font-inter">
           <p>
-            If you have any assets held by Remitano in your Account and Remitano
-            is unable to contact you and has no record of your use of the
-            Services for a period of time exceeding not less than twelve (12)
-            months or, in certain jurisdictions, the period of time required by
-            applicable laws or regulations in relevant jurisdiction(s), Remitano
-            may be required to report these funds as unclaimed property in
-            accordance with the Applicable Laws and Regulations. Remitano will
-            use reasonable endeavors to locate you using the contact information
-            available to Remitano. If Remitano is unable to locate you, Remitano
-            reserves the right to:
+            If you have any assets held by P2P in your Account and P2P is unable
+            to contact you and has no record of your use of the Services for a
+            period of time exceeding not less than twelve (12) months or, in
+            certain jurisdictions, the period of time required by applicable
+            laws or regulations in relevant jurisdiction(s), P2P may be required
+            to report these funds as unclaimed property in accordance with the
+            Applicable Laws and Regulations. P2P will use reasonable endeavors
+            to locate you using the contact information available to P2P. If P2P
+            is unable to locate you, P2P reserves the right to:
           </p>
           <ul className="list-disc pl-6 space-y-2 ">
             <li>Close your Account and terminate these Terms;</li>
@@ -1043,63 +1034,61 @@ const PrivacyPolicy: React.FC = () => {
         </h2>
         <div className="ml-5 space-y-4 font-inter">
           <p>
-            IN NO EVENT SHALL REMITANO, ITS AFFILIATES AND SERVICE PROVIDERS, OR
-            ANY OF THEIR RESPECTIVE OFFICERS, DIRECTORS, AGENTS, JOINT
-            VENTURERS, EMPLOYEES OR REPRESENTATIVES, BE LIABLE (I) FOR ANY
-            AMOUNT GREATER THAN THE VALUE OF THE SUPPORTED DIGITAL ASSETS
-            ASSOCIATED WITH YOUR DIGITAL ASSET WALLET AT THE TIME OF THE EVENT
-            OR CIRCUMSTANCE GIVING RISE TO YOUR CLAIM OR (II) FOR ANY LOST
-            PROFITS, LOSS OF GOODWILL OR REPUTATION, LOSS OF DATA, DIMINUTION IN
-            VALUE OR BUSINESS OPPORTUNITY, ANY LOSS, DAMAGE, CORRUPTION OR
-            BREACH OF DATA OR ANY OTHER INTANGIBLE PROPERTY OR ANY SPECIAL,
-            INCIDENTAL, INDIRECT, INTANGIBLE, OR CONSEQUENTIAL DAMAGES, WHETHER
-            BASED IN CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR OTHERWISE,
-            ARISING OUT OF OR IN CONNECTION WITH ANY USE OF THE REMITANO SITE OR
-            THE REMITANO SERVICES, OR THIS AGREEMENT, EVEN IF REMITANO HAS BEEN
-            ADVISED OF OR KNEW OR SHOULD HAVE KNOWN OF THE POSSIBILITY OF SUCH
-            DAMAGES, AND NOTWITHSTANDING THE FAILURE OF ANY AGREED OR OTHER
-            REMEDY OF ITS ESSENTIAL PURPOSE, EXCEPT TO THE EXTENT OF A FINAL
-            JUDICIAL DETERMINATION THAT SUCH DAMAGES WERE A RESULT OF REMITANO’S
-            GROSS NEGLIGENCE, FRAUD, WILLFUL MISCONDUCT OR INTENTIONAL VIOLATION
-            OF LAW. THIS MEANS, BY WAY OF EXAMPLE ONLY (AND WITHOUT LIMITING THE
-            SCOPE OF THE PRECEDING SENTENCE), THAT IF YOU CLAIM THAT REMITANO
-            FAILED TO PROCESS A BUY OR SELL TRANSACTION PROPERLY, YOUR DAMAGES
-            ARE LIMITED TO NO MORE THAN THE LESSER OF THE VALUE OF THE SUPPORTED
-            DIGITAL ASSETS AT ISSUE IN THE TRANSACTION OR THE TOTAL VALUE OF THE
-            SUPPORTED DIGITAL ASSETS ASSOCIATED WITH YOUR DIGITAL ASSET WALLET,
-            AND THAT YOU MAY NOT RECOVER FOR LOST PROFITS, LOST BUSINESS
-            OPPORTUNITIES, DIMINUTION IN VALUE OR OTHER TYPES OF SPECIAL,
-            INCIDENTAL, INDIRECT, INTANGIBLE, EXEMPLARY, PUNITIVE OR
-            CONSEQUENTIAL DAMAGES ​OR ANY DAMAGES ARISING OUT OF OR RELATING TO
-            DIGITAL ASSETS THAT ARE NOT SUPPORTED DIGITAL ASSETS. SOME
-            JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL
-            OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO
-            YOU. THE REMITANO SERVICES ARE PROVIDED ON AN "AS IS" AND "AS
-            AVAILABLE" BASIS WITHOUT ANY REPRESENTATION OR WARRANTY, WHETHER
+            IN NO EVENT SHALL P2P, ITS AFFILIATES AND SERVICE PROVIDERS, OR ANY
+            OF THEIR RESPECTIVE OFFICERS, DIRECTORS, AGENTS, JOINT VENTURERS,
+            EMPLOYEES OR REPRESENTATIVES, BE LIABLE (I) FOR ANY AMOUNT GREATER
+            THAN THE VALUE OF THE SUPPORTED DIGITAL ASSETS ASSOCIATED WITH YOUR
+            DIGITAL ASSET WALLET AT THE TIME OF THE EVENT OR CIRCUMSTANCE GIVING
+            RISE TO YOUR CLAIM OR (II) FOR ANY LOST PROFITS, LOSS OF GOODWILL OR
+            REPUTATION, LOSS OF DATA, DIMINUTION IN VALUE OR BUSINESS
+            OPPORTUNITY, ANY LOSS, DAMAGE, CORRUPTION OR BREACH OF DATA OR ANY
+            OTHER INTANGIBLE PROPERTY OR ANY SPECIAL, INCIDENTAL, INDIRECT,
+            INTANGIBLE, OR CONSEQUENTIAL DAMAGES, WHETHER BASED IN CONTRACT,
+            TORT, NEGLIGENCE, STRICT LIABILITY, OR OTHERWISE, ARISING OUT OF OR
+            IN CONNECTION WITH ANY USE OF THE P2P SITE OR THE P2P SERVICES, OR
+            THIS AGREEMENT, EVEN IF P2P HAS BEEN ADVISED OF OR KNEW OR SHOULD
+            HAVE KNOWN OF THE POSSIBILITY OF SUCH DAMAGES, AND NOTWITHSTANDING
+            THE FAILURE OF ANY AGREED OR OTHER REMEDY OF ITS ESSENTIAL PURPOSE,
+            EXCEPT TO THE EXTENT OF A FINAL JUDICIAL DETERMINATION THAT SUCH
+            DAMAGES WERE A RESULT OF P2P’S GROSS NEGLIGENCE, FRAUD, WILLFUL
+            MISCONDUCT OR INTENTIONAL VIOLATION OF LAW. THIS MEANS, BY WAY OF
+            EXAMPLE ONLY (AND WITHOUT LIMITING THE SCOPE OF THE PRECEDING
+            SENTENCE), THAT IF YOU CLAIM THAT P2P FAILED TO PROCESS A BUY OR
+            SELL TRANSACTION PROPERLY, YOUR DAMAGES ARE LIMITED TO NO MORE THAN
+            THE LESSER OF THE VALUE OF THE SUPPORTED DIGITAL ASSETS AT ISSUE IN
+            THE TRANSACTION OR THE TOTAL VALUE OF THE SUPPORTED DIGITAL ASSETS
+            ASSOCIATED WITH YOUR DIGITAL ASSET WALLET, AND THAT YOU MAY NOT
+            RECOVER FOR LOST PROFITS, LOST BUSINESS OPPORTUNITIES, DIMINUTION IN
+            VALUE OR OTHER TYPES OF SPECIAL, INCIDENTAL, INDIRECT, INTANGIBLE,
+            EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES ​OR ANY DAMAGES ARISING
+            OUT OF OR RELATING TO DIGITAL ASSETS THAT ARE NOT SUPPORTED DIGITAL
+            ASSETS. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION
+            OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION MAY
+            NOT APPLY TO YOU. THE P2P SERVICES ARE PROVIDED ON AN "AS IS" AND
+            "AS AVAILABLE" BASIS WITHOUT ANY REPRESENTATION OR WARRANTY, WHETHER
             EXPRESS, IMPLIED OR STATUTORY. TO THE MAXIMUM EXTENT PERMITTED BY
-            APPLICABLE LAW, REMITANO SPECIFICALLY DISCLAIMS ANY IMPLIED
-            WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR
-            PURPOSE AND/OR NON-INFRINGEMENT. REMITANO DOES NOT MAKE ANY
-            REPRESENTATIONS OR WARRANTIES THAT ACCESS TO THE REMITANO SITE, ANY
-            PART OF THE REMITANO SERVICES, OR ANY OF THE MATERIALS CONTAINED
-            THEREIN, WILL BE CONTINUOUS, UNINTERRUPTED, TIMELY, OR ERROR-FREE.
-            REMITANO DOES NOT GUARANTEE THAT ANY ORDER WILL BE EXECUTED,
-            ACCEPTED, RECORDED OR REMAIN OPEN. EXCEPT FOR THE EXPRESS STATEMENTS
-            SET FORTH IN THIS AGREEMENT, YOU HEREBY ACKNOWLEDGE AND AGREE THAT
-            YOU HAVE NOT RELIED UPON ANY OTHER STATEMENT OR UNDERSTANDING,
-            WHETHER WRITTEN OR ORAL, WITH RESPECT TO YOUR USE AND ACCESS OF THE
-            REMITANO SERVICES AND REMITANO SITE. WITHOUT LIMITING THE FOREGOING,
-            YOU HEREBY UNDERSTAND AND AGREE THAT REMITANO WILL NOT BE LIABLE FOR
-            ANY LOSSES OR DAMAGES ARISING OUT OF OR RELATING TO: (I) ANY
-            INACCURACY, DEFECT OR OMISSION OF DIGITAL ASSET PRICE DATA, OR ANY
-            ERROR, DELAY OR INTERRUPTION IN THE TRANSMISSION OF SUCH DATA; (II)
-            VIRUSES OR OTHER MALICIOUS SOFTWARE OBTAINED BY ACCESSING OUR
-            WEBSITES, SOFTWARE, SYSTEMS OPERATED BY US OR ON OUR BEHALF OR ANY
-            OF THE REMITANO SERVICES OR ANY WEBSITE OR SERVICE LINKED TO OUR
-            WEBSITE; (III) GLITCHES, BUGS, ERRORS, OR INACCURACIES OF ANY KIND
-            IN OUR WEBSITES, SOFTWARE, SYSTEMS OPERATED BY US OR ON OUR BEHALF
-            OR ANY OF THE REMITANO SERVICES; OR (IV) A SUSPENSION OR OTHER
-            ACTION TAKEN WITH RESPECT TO YOUR REMITANO ACCOUNT.
+            APPLICABLE LAW, P2P SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTIES OF
+            TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND/OR
+            NON-INFRINGEMENT. P2P DOES NOT MAKE ANY REPRESENTATIONS OR
+            WARRANTIES THAT ACCESS TO THE P2P SITE, ANY PART OF THE P2P
+            SERVICES, OR ANY OF THE MATERIALS CONTAINED THEREIN, WILL BE
+            CONTINUOUS, UNINTERRUPTED, TIMELY, OR ERROR-FREE. P2P DOES NOT
+            GUARANTEE THAT ANY ORDER WILL BE EXECUTED, ACCEPTED, RECORDED OR
+            REMAIN OPEN. EXCEPT FOR THE EXPRESS STATEMENTS SET FORTH IN THIS
+            AGREEMENT, YOU HEREBY ACKNOWLEDGE AND AGREE THAT YOU HAVE NOT RELIED
+            UPON ANY OTHER STATEMENT OR UNDERSTANDING, WHETHER WRITTEN OR ORAL,
+            WITH RESPECT TO YOUR USE AND ACCESS OF THE P2P SERVICES AND P2P
+            SITE. WITHOUT LIMITING THE FOREGOING, YOU HEREBY UNDERSTAND AND
+            AGREE THAT P2P WILL NOT BE LIABLE FOR ANY LOSSES OR DAMAGES ARISING
+            OUT OF OR RELATING TO: (I) ANY INACCURACY, DEFECT OR OMISSION OF
+            DIGITAL ASSET PRICE DATA, OR ANY ERROR, DELAY OR INTERRUPTION IN THE
+            TRANSMISSION OF SUCH DATA; (II) VIRUSES OR OTHER MALICIOUS SOFTWARE
+            OBTAINED BY ACCESSING OUR WEBSITES, SOFTWARE, SYSTEMS OPERATED BY US
+            OR ON OUR BEHALF OR ANY OF THE P2P SERVICES OR ANY WEBSITE OR
+            SERVICE LINKED TO OUR WEBSITE; (III) GLITCHES, BUGS, ERRORS, OR
+            INACCURACIES OF ANY KIND IN OUR WEBSITES, SOFTWARE, SYSTEMS OPERATED
+            BY US OR ON OUR BEHALF OR ANY OF THE P2P SERVICES; OR (IV) A
+            SUSPENSION OR OTHER ACTION TAKEN WITH RESPECT TO YOUR P2P ACCOUNT.
           </p>
         </div>
         <h2 className="text-[18px] font-rubik font-semibold mt-6 mb-2">
@@ -1108,24 +1097,22 @@ const PrivacyPolicy: React.FC = () => {
         <div className="ml-5 space-y-4 font-inter">
           <ul className="list-disc pl-5">
             <li>
-              Remitano reserves the right to change or modify these Terms in its
+              P2P reserves the right to change or modify these Terms in its
               discretion at any time.
             </li>
             <li>
-              Remitano will notify such changes by updating the terms on its
-              website and modifying the [Last revised] date displayed on this
-              page.
+              P2P will notify such changes by updating the terms on its website
+              and modifying the [Last revised] date displayed on this page.
             </li>
             <li>
               ANY AND ALL MODIFICATIONS OR CHANGES TO THESE TERMS WILL BECOME
               EFFECTIVE UPON PUBLICATION ON THE WEBSITE OR RELEASE TO USERS.
-              THEREFORE, YOUR CONTINUED USE OF REMITANO SERVICES IS DEEMED YOUR
+              THEREFORE, YOUR CONTINUED USE OF P2P SERVICES IS DEEMED YOUR
               ACCEPTANCE OF THE MODIFIED AGREEMENT AND RULES. IF YOU DO NOT
-              AGREE TO ANY CHANGES TO THESE TERMS, YOU MUST STOP USING REMITANO
+              AGREE TO ANY CHANGES TO THESE TERMS, YOU MUST STOP USING P2P
               SERVICES IMMEDIATELY. YOU ARE RECOMMENDED TO FREQUENTLY REVIEW
               THESE TERMS TO ENSURE YOUR UNDERSTANDING OF THE TERMS AND
-              CONDITIONS THAT APPLY TO YOUR ACCESS TO AND USE OF REMITANO
-              SERVICES.
+              CONDITIONS THAT APPLY TO YOUR ACCESS TO AND USE OF P2P SERVICES.
             </li>
           </ul>
         </div>
@@ -1136,9 +1123,9 @@ const PrivacyPolicy: React.FC = () => {
           <ol className=" list-decimal">
             <li>
               In the event of a transfer of the whole or part of the business of
-              Remitano to any third party, the User consents to the transfer of
-              the business relationship between the User and Remitano, which
-              includes but is not limited to the User’s:
+              P2P to any third party, the User consents to the transfer of the
+              business relationship between the User and P2P, which includes but
+              is not limited to the User’s:
               <ul className=" pl-5 list-disc">
                 <li>Account</li>
                 <li>Assets</li>
@@ -1147,9 +1134,9 @@ const PrivacyPolicy: React.FC = () => {
               </ul>
             </li>
             <li>
-              In the event that Remitano is acquired by or merged with a third
-              party entity, Remitano reserves the right to transfer or assign
-              the information collected from Users as part of the acquisition,
+              In the event that P2P is acquired by or merged with a third party
+              entity, P2P reserves the right to transfer or assign the
+              information collected from Users as part of the acquisition,
               merger, sale or other change of control.
             </li>
           </ol>
@@ -1240,58 +1227,55 @@ const PrivacyPolicy: React.FC = () => {
         <div className="ml-5 space-y-4 font-inter">
           <ol className=" list-decimal pl-5">
             <li>
-              Notice of Claim and Dispute Resolution Period. Please inform
-              Remitano to address your concerns without resorting to formal
-              legal proceedings, if possible. If you have a dispute with
-              Remitano, then you should contact Remitano and a ticket number
-              will be assigned. Remitano will attempt to resolve your dispute
-              internally as soon as possible. The parties agree to negotiate in
-              good faith to resolve the dispute (which discussions shall remain
-              confidential and be subject to applicable rules protecting
-              settlement discussions from use as evidence in any legal
-              proceeding).
+              Notice of Claim and Dispute Resolution Period. Please inform P2P
+              to address your concerns without resorting to formal legal
+              proceedings, if possible. If you have a dispute with P2P, then you
+              should contact P2P and a ticket number will be assigned. P2P will
+              attempt to resolve your dispute internally as soon as possible.
+              The parties agree to negotiate in good faith to resolve the
+              dispute (which discussions shall remain confidential and be
+              subject to applicable rules protecting settlement discussions from
+              use as evidence in any legal proceeding).
               <br />
               In the event the dispute cannot be resolved satisfactorily, and
-              you wish to assert a legal claim against Remitano, then you agree
-              to set forth the basis of such claim in writing in a “Notice of
-              Claim,” as a form of prior notice to Remitano. The Notice of Claim
-              must (1) describe the nature and basis of the claim or dispute,
-              (2) set forth the specific relief sought, (3) provide the original
-              ticket number, and (4) include your Remitano account email. The
-              Notice of Claim should be submitted to an email address or
-              hyperlink provided in your correspondence with Remitano. After you
-              have provided the Notice of Claim to Remitano, the dispute
-              referenced in the Notice of Claim may be submitted by either
-              Remitano or you to arbitration in accordance with paragraph 2 of
-              this Section, below.
+              you wish to assert a legal claim against P2P, then you agree to
+              set forth the basis of such claim in writing in a “Notice of
+              Claim,” as a form of prior notice to P2P. The Notice of Claim must
+              (1) describe the nature and basis of the claim or dispute, (2) set
+              forth the specific relief sought, (3) provide the original ticket
+              number, and (4) include your P2P account email. The Notice of
+              Claim should be submitted to an email address or hyperlink
+              provided in your correspondence with P2P. After you have provided
+              the Notice of Claim to P2P, the dispute referenced in the Notice
+              of Claim may be submitted by either P2P or you to arbitration in
+              accordance with paragraph 2 of this Section, below.
               <br />
-              For the avoidance of doubt, the submission of a dispute to
-              Remitano for resolution internally and the delivery of a Notice of
-              Claim to Remitano are prerequisites to commencement of an
-              arbitration proceeding (or any other legal proceeding). During the
-              arbitration, the amount of any settlement offer made by you or
-              Remitano shall not be disclosed to the arbitrator.
+              For the avoidance of doubt, the submission of a dispute to P2P for
+              resolution internally and the delivery of a Notice of Claim to P2P
+              are prerequisites to commencement of an arbitration proceeding (or
+              any other legal proceeding). During the arbitration, the amount of
+              any settlement offer made by you or P2P shall not be disclosed to
+              the arbitrator.
             </li>
             <li>
-              Agreement to Arbitrate and Governing Law. You and Remitano agree
-              that any dispute, claim, or controversy between you and Remitano)
-              arising in connection with or relating in any way to these Terms
-              or to your relationship with Remitano as a user of Remitano
-              Services will be determined by mandatory final and binding
-              individual (not class) arbitration. You and Remitano further agree
-              that the arbitrator shall have the exclusive power to rule on his
-              or her own jurisdiction, including without limitation any
-              objections with respect to the existence, scope or validity of the
-              Agreement to Arbitrate, or to the arbitrability of any claim or
-              counterclaim. THERE IS NO JUDGE OR JURY IN ARBITRATION, AND COURT
-              REVIEW OF AN ARBITRATION AWARD IS LIMITED. There may be more
-              limited discovery than in court. The arbitrator must follow this
-              agreement and can award the same damages and relief as a court
-              (including, if applicable, attorney fees), except that the
-              arbitrator may not award declaratory or injunctive relief in
-              favour of anyone but the parties to the arbitration. The
-              arbitration provisions set forth in this Section will survive
-              termination of these Terms.
+              Agreement to Arbitrate and Governing Law. You and P2P agree that
+              any dispute, claim, or controversy between you and P2P) arising in
+              connection with or relating in any way to these Terms or to your
+              relationship with P2P as a user of P2P Services will be determined
+              by mandatory final and binding individual (not class) arbitration.
+              You and P2P further agree that the arbitrator shall have the
+              exclusive power to rule on his or her own jurisdiction, including
+              without limitation any objections with respect to the existence,
+              scope or validity of the Agreement to Arbitrate, or to the
+              arbitrability of any claim or counterclaim. THERE IS NO JUDGE OR
+              JURY IN ARBITRATION, AND COURT REVIEW OF AN ARBITRATION AWARD IS
+              LIMITED. There may be more limited discovery than in court. The
+              arbitrator must follow this agreement and can award the same
+              damages and relief as a court (including, if applicable, attorney
+              fees), except that the arbitrator may not award declaratory or
+              injunctive relief in favour of anyone but the parties to the
+              arbitration. The arbitration provisions set forth in this Section
+              will survive termination of these Terms.
               <br />
               Arbitration Rules: The arbitration shall be subject to the SIAC
               Rules in force when the Notice of Arbitration is submitted. The
@@ -1305,16 +1289,16 @@ const PrivacyPolicy: React.FC = () => {
               which the decision and award, if any, are based. JUDGMENT ON ANY
               ARBITRAL AWARD MAY BE GIVEN IN ANY COURT HAVING JURISDICTION OVER
               THE PARTY (OR OVER THE ASSETS OF THE PARTY) AGAINST WHOM SUCH AN
-              AWARD IS RENDERED. Time for Filing: ANY ARBITRATION AGAINST
-              REMITANO MUST BE COMMENCED BY FILING A REQUEST FOR ARBITRATION
-              WITHIN ONE (1) YEAR, AFTER THE DATE THE PARTY ASSERTING THE CLAIM
-              FIRST KNOWS OR REASONABLY SHOULD KNOW OF THE ACT, OMISSION OR
-              DEFAULT GIVING RISE TO THE CLAIM; AND THERE SHALL BE NO RIGHT TO
-              ANY REMEDY FOR ANY CLAIM NOT ASSERTED WITHIN THAT TIME PERIOD.
-              THIS ONE YEAR LIMITATION PERIOD IS INCLUSIVE OF THE INTERNAL
-              DISPUTE RESOLUTION PROCEDURE SET FORTH IN PARAGRAPH 1 OF THIS
-              SECTION. THERE SHALL BE NO RIGHT TO ANY REMEDY FOR ANY CLAIM NOT
-              ASSERTED WITHIN THAT TIME PERIOD.
+              AWARD IS RENDERED. Time for Filing: ANY ARBITRATION AGAINST P2P
+              MUST BE COMMENCED BY FILING A REQUEST FOR ARBITRATION WITHIN ONE
+              (1) YEAR, AFTER THE DATE THE PARTY ASSERTING THE CLAIM FIRST KNOWS
+              OR REASONABLY SHOULD KNOW OF THE ACT, OMISSION OR DEFAULT GIVING
+              RISE TO THE CLAIM; AND THERE SHALL BE NO RIGHT TO ANY REMEDY FOR
+              ANY CLAIM NOT ASSERTED WITHIN THAT TIME PERIOD. THIS ONE YEAR
+              LIMITATION PERIOD IS INCLUSIVE OF THE INTERNAL DISPUTE RESOLUTION
+              PROCEDURE SET FORTH IN PARAGRAPH 1 OF THIS SECTION. THERE SHALL BE
+              NO RIGHT TO ANY REMEDY FOR ANY CLAIM NOT ASSERTED WITHIN THAT TIME
+              PERIOD.
             </li>
           </ol>
         </div>
@@ -1331,9 +1315,9 @@ const PrivacyPolicy: React.FC = () => {
             </li>
             <li>
               Complaints: If you have any complaints, feedback, or questions,
-              please contact our Customer Service at support@remitano.com. When
-              you contact us, please provide us with your name and email address
-              and any other information we may need to identify you, and the
+              please contact our Customer Service at support@P2P.com. When you
+              contact us, please provide us with your name and email address and
+              any other information we may need to identify you, and the
               transaction on which you have feedback, questions, or complaints.
             </li>
             <li>
@@ -1359,54 +1343,62 @@ const PrivacyPolicy: React.FC = () => {
               <br />
               We do not provide personal advice in relation to our products or
               services. We sometimes provide factual information, information
-              about transaction procedures, and information about the potential
+              about transaction procedures and information about the potential
               risks. However, any decision to use our products or services is
               made by you. No communication or information provided to you by
-              Remitano is intended as, or shall be considered or construed as,
+              P2P is intended as, or shall be considered or construed as,
               investment advice, financial advice, trading advice, or any other
               sort of advice. You are solely responsible for determining whether
-              any investment, investment strategy, or related transaction is
+              any investment, investment strategy or related transaction is
               appropriate for you according to your personal investment
-              objectives, financial circumstances, and risk tolerance.
+              objectives, financial circumstances and risk tolerance.
             </li>
             <li>
               No Monitoring
               <br />
-              Remitano is not your broker, intermediary, agent, or advisor and
-              has no fiduciary relationship or obligation to you in connection
-              with any trades or other decisions or activities undertaken by you
-              using Remitano Services. We do not monitor whether your use of
-              Remitano Services is consistent with your financial goals and
-              objectives. It is up to you to assess whether your financial
-              resources are adequate for your financial activity with us, and to
-              your risk appetite in the products and services you use.
+              P2P is not your broker, intermediary, agent, or advisor and has no
+              fiduciary relationship or obligation to you in connection with any
+              trades or other decisions or activities undertaken by you using
+              P2P Services. We do not monitor whether your use of P2P Services
+              is consistent with your financial goals and objectives. It is up
+              to you to assess whether your financial resources are adequate for
+              your financial activity with us, and to your risk appetite in the
+              products and services you use.
             </li>
             <li>
               No Tax, Regulatory or Legal Advice
               <br />
               The taxation of Digital Assets is uncertain, and you are
               responsible for determining what taxes you might be liable to, and
-              how they apply, when transacting through the Remitano Services. It
-              is your responsibility to report and pay any taxes that may arise
-              from transacting on the Remitano Services, and you acknowledge
-              that Remitano does not provide legal or tax advice relative to
-              these transactions. If you have any doubts about your tax status
-              or obligations when using Remitano Services, or with respect to
-              the Digital Assets held to the credit of your Remitano account,
-              you may wish to seek independent advice. You acknowledge that,
-              when, where, and as required by applicable legislation, Remitano
-              shall report information regarding your transactions, transfers,
-              distributions, or payments to tax or other public authorities.
+              how they apply, when transacting through the P2P Services. It is
+              your responsibility to report and pay any taxes that may arise
+              from transacting on the P2P Services, and you acknowledge that P2P
+              does not provide legal or tax advice relative to these
+              transactions. If you have any doubts about your tax status or
+              obligations when using P2P Services, or with respect to the
+              Digital Assets held to the credit of your P2P account, you may
+              wish to seek independent advice. You acknowledge that, when, where
+              and as required by applicable legislation, P2P shall report
+              information regarding your transactions, transfers, distributions
+              or payments to tax or other public authorities. Similarly, when,
+              where and as required by applicable law, P2P shall withhold taxes
+              related to your transactions, transfers, distributions or payments
+              (if requested). Applicable legislation could also prompt P2P to
+              request you for additional tax information, status, certificates
+              or documentation. You acknowledge that failure to answer these
+              requests within the timeframe defined, may result in withholding
+              taxes by P2P, to be remitted to tax authorities as defined by
+              relevant law. You are encouraged to seek professional and personal
+              tax advice regarding the above and before making any digital asset
+              transaction.
             </li>
             <li>
-              Market Risks
-              <br />
-              Digital Asset trading is subject to high market risk and price
-              volatility. Changes in value may be significant and may occur
-              rapidly and without warning. Past performance is not a reliable
-              indicator of future performance. The value of an investment and
-              any returns can go down as well as up, and you may not get back
-              the amount you had invested.
+              Market Risks Digital Asset trading is subject to high market risk
+              and price volatility. Changes in value may be significant and may
+              occur rapidly and without warning. Past performance is not a
+              reliable indicator of future performance. The value of an
+              investment and any returns can go down as well as up, and you may
+              not get back the amount you had invested.
             </li>
             <li>
               Liquidity Risk
@@ -1419,53 +1411,92 @@ const PrivacyPolicy: React.FC = () => {
             <li>
               Fees & Charges
               <br />
-              Our fees and charges are set out and Remitano may, in its
-              discretion, update the fees & charges from time to time. Please be
-              aware of all costs and charges that apply to you, because such
-              costs and charges will affect the gains you generate from using
-              Remitano Services.
+              Our fees and charges are set out and P2P may, in its discretion,
+              update the fees & charges from time to time. Please be aware of
+              all costs and charges that apply to you, because such costs and
+              charges will affect the gains you generate from using P2P
+              Services.
             </li>
             <li>
               Availability Risk
               <br />
-              We do not guarantee that the Remitano Services will be available
-              at any particular time or that Remitano Services will not be
-              subject to unplanned service outages or network congestion. It may
-              not be possible for you to buy, sell, store, transfer, send, or
-              receive Digital Assets when you wish to do so. There are legal
+              We do not guarantee that the P2P Services will be available at any
+              particular time or that P2P Services will not be subject to
+              unplanned service outages or network congestion. It may not be
+              possible for you to buy, sell, store, transfer, send or receive
+              Digital Assets when you wish to do so. There are legal
               requirements in various countries which may restrict the products
-              and services that Remitano can lawfully provide.
+              and services that P2P can lawfully provide. Accordingly, some
+              products and services and/or certain functionality within the
+              Platform may not be available or may be restricted in certain
+              jurisdictions or regions or to certain Users and any P2P
+              campaigns, user competitions or other promotions will not be open
+              to (and are not targeted at or intended for) Users to whom
+              restrictions apply. Users are responsible for informing themselves
+              about and observing any restrictions and/or requirements imposed
+              with respect to the access to and use of the Platform and the P2P
+              Services in each jurisdiction from which the Platform and the P2P
+              Services are accessed by or on behalf of the User. P2P reserves
+              the right to change, modify or impose additional restrictions with
+              respect to the access to and use of the Platform and/or the P2P
+              Services from time to time in its sole discretion without
+              notification.
             </li>
             <li>
               Third Party Risk
               <br />
               Third parties, such as payment providers, custodians, and banking
-              partners may be involved in the provision of Remitano Services.
-              You may be subject to the terms & conditions of these third
-              parties, and Remitano may not be responsible for any loss that
-              these third parties may cause to you.
+              partners may be involved in the provision of P2P Services. You may
+              be subject to the terms & conditions of these third parties, and
+              P2P may not be responsible for any loss that these third parties
+              may cause to you.
             </li>
             <li>
               Security Risk
               <br />
-              It is not possible for Remitano to eliminate all security risks.
-              You are responsible for keeping your Remitano Account password
-              safe, and you may be responsible for all the transactions under
-              your Remitano Account, whether you authorized them or not.
-              Transactions in Digital Assets may be irreversible, and losses due
-              to fraudulent or unauthorized transactions may not be recoverable.
+              It is not possible for P2P to eliminate all security risks. You
+              are responsible for keeping your P2P Account password safe, and
+              you may be responsible for all the transactions under your P2P
+              Account, whether you authorized them or not. Transactions in
+              Digital Assets may be irreversible, and losses due to fraudulent
+              or unauthorized transactions may not be recoverable.
             </li>
             <li>
               Risks related to Digital Assets
               <br />
               Given the nature of Digital Assets and their underlying
               technologies, there are a number of intrinsic risks, including but
-              not limited to faults, defects, hacks, exploits, errors, protocol
-              failures or unforeseen circumstances occurring in respect of a
-              Digital Asset or the technologies or economic systems on which the
-              Digital Asset relies. Transactions in Digital Assets are
-              irreversible and losses due to fraudulent or accidental
-              transactions may not be recoverable.
+              not limited to:
+              <ul>
+                <li>
+                  faults, defects, hacks, exploits, errors, protocol failures or
+                  unforeseen circumstances occurring in respect of a Digital
+                  Asset or the technologies or economic systems on which the
+                  Digital Asset rely;
+                </li>
+                <li>
+                  transactions in Digital Assets being irreversible.
+                  Consequently, losses due to fraudulent or accidental
+                  transactions may not be recoverable;
+                </li>
+                <li>
+                  technological development leading to the obsolescence of a
+                  Digital Asset;
+                </li>
+                <li>
+                  delays causing transactions not be settled on the scheduled
+                  delivery date; and
+                </li>
+                <li>
+                  attacks on the protocol or technologies on which a Digital
+                  Asset depends, including, but not limited to: i. distributed
+                  denial of service; ii. sybil attacks; iii. phishing; iv.
+                  social engineering; v. hacking; vi. smurfing; vii. malware;
+                  viii. double spending; ix. majority-mining, consensus-based or
+                  other mining attacks; x. misinformation campaigns; xi. forks;
+                  and xii. spoofing.
+                </li>
+              </ul>
             </li>
             <li>
               Monitoring Risks
@@ -1473,6 +1504,14 @@ const PrivacyPolicy: React.FC = () => {
               Digital Asset markets are open 24 hours a day, 7 days a week.
               Rapid price changes may occur at any time, including outside of
               normal business hours.
+            </li>
+            <li>
+              Communication Risks
+              <br />
+              When you communicate with us via electronic communication, you
+              should be aware that electronic communications can fail, can be
+              delayed, may not be secure and/or may not reach the intended
+              destination.
             </li>
             <li>
               Communication Risks

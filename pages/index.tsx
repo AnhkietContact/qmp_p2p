@@ -13,15 +13,15 @@ const HomePione = () => {
   return (
     <MainLayout>
       <section className="py-20">
-        <div className="z-30 relative flex flex-col items-center mt-20 py-10">
-          <div className="flex flex-col md:flex-row justify-center items-center space-x-10 z-30 relative">
+        <div className=" relative z-30 flex flex-col items-center mt-20 py-10">
+          <div className="flex flex-col md:flex-row justify-center items-center space-x-10 ">
             <div
               data-aos="fade-right"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
               className="flex flex-col text-center md:text-left items-center relative z-30"
             >
-              <div className=" md:w-[600px]">
+              <div className=" md:w-[600px] ">
                 <p className="text-[48px] text-[#FF8311] font-rubik font-bold">
                   QMP P2P - Financial connection, increasing value
                 </p>
@@ -121,7 +121,7 @@ const HomePione = () => {
             className=""
             data-aos="fade-right"
           />
-          <div data-aos="fade-left" className=" space-y-5">
+          <div data-aos="fade-left" className=" space-y-5  relative z-30">
             <span className="text-[24px] font-rubik text-[#FF8311]">
               How it works
             </span>
@@ -188,8 +188,8 @@ const HomePione = () => {
         </div>
       </section>
       <section className="relative z-20">
-        <div data-aos="fade-right" className="container mb-20">
-          <div className="rounded-[10px] border bg-white shadow-lg p-5 flex flex-col md:flex-row gap-10 items-center md:justify-between relative z-10">
+        <div data-aos="fade-right" className="container mb-20 relative z-30">
+          <div className="rounded-[10px] border bg-white shadow-lg p-5 flex flex-col md:flex-row gap-10 items-center md:justify-between">
             <div className="container flex flex-col space-y-3">
               <span className="font-rubik text-[24px] text-[#FF8311]">
                 Benefit
