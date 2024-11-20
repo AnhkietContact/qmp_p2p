@@ -80,7 +80,6 @@ const HomePione = () => {
           />
         </div>
       </section>
-
       <section
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
@@ -111,7 +110,7 @@ const HomePione = () => {
           </div>
         </div>
       </section>
-      <section className="container py-10 mb-20">
+      <section id="instruct" className="container py-28 mb-20">
         <div className="flex flex-col lg:flex-row items-center gap-20">
           <Image
             src="/images/Phone_P2P.png"
@@ -235,7 +234,7 @@ const HomePione = () => {
           <Advantages />
         </div>
       </section>
-      <section id="features" className="bg-gradient-angular mb-20">
+      <section id="features" className="bg-gradient-angular py-20 mb-20">
         <div className="container py-20">
           <div data-aos="fade-down" className="text-center mb-20">
             <span className="font-semibold font-rubik text-[48px] text-white">
@@ -266,7 +265,7 @@ const HomePione = () => {
           </div>
         </div>
       </section>
-      <section className="mb-20">
+      <section id="faq" className="mb-20 py-28">
         <div className="container">
           <div
             data-aos="zoom-in-down"
@@ -281,12 +280,11 @@ const HomePione = () => {
             </span>
           </div>
           <div>
-            {" "}
             <Questions />
           </div>
         </div>
       </section>
-      <section id="download" className="bg-gradient-top">
+      <section id="download" className="bg-gradient-top py-10">
         <div
           data-aos="fade-down"
           data-aos-offset="400"
@@ -326,7 +324,7 @@ const HomePione = () => {
         </div>
       </section>
       <section className="">
-        <div className="container">
+        <div className="container py-20">
           <div className="flex flex-col items-center justify-center mb-6">
             <div data-aos="zoom-in">
               <span className="block text-[48px] font-rubik text-[#27004E] font-semibold mb-2">

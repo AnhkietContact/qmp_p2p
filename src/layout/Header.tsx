@@ -24,7 +24,7 @@ const Header: React.FC = () => {
   }, []);
 
   const Scrollheader = [
-    { id: 1, label: "About", link: "about" },
+    { id: 1, label: "Instruct", link: "instruct" },
     { id: 2, label: "Features", link: "features" },
     { id: 3, label: "Download", link: "download" },
     { id: 4, label: "FAQs", link: "faq" },

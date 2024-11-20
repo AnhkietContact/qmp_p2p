@@ -28,18 +28,22 @@ const Footer = () => {
                   Download
                 </span>
                 <div className="flex flex-col md:flex-row mt-5">
-                  <Image
-                    src="/images/AppStore.png"
-                    alt=""
-                    width={200}
-                    height={100}
-                  />
-                  <Image
-                    src="/images/GooglePlay.png"
-                    alt=""
-                    width={200}
-                    height={100}
-                  />
+                  <Link href="/">
+                    <Image
+                      src="/images/AppStore.png"
+                      alt=""
+                      width={200}
+                      height={100}
+                    />
+                  </Link>
+                  <Link href="">
+                    <Image
+                      src="/images/GooglePlay.png"
+                      alt=""
+                      width={200}
+                      height={100}
+                    />
+                  </Link>
                 </div>
               </div>
             </div>
