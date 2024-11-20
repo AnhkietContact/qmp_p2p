@@ -23,7 +23,7 @@ class MyDocument extends Document {
         <Head>
           <link
             rel="shortcut icon"
-            href="/images/LogoNav.png"
+            href="/images/LogoNav.svg"
             type="image/png"
           />
           {/* font */}

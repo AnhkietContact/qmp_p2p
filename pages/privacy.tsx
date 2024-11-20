@@ -70,10 +70,10 @@ const PrivacyPolicy = () => {
           </h2>
           <p className="mb-4 text-[16px] font-inter">
             We may collect your Personal Information if you use this website,
-            open an Account via P2P.com or perform any Transactions on
-            P2P.com. We may also collect Personal Information about you
-            from recordings of telephone conversations between us and you (or
-            your representatives) and from publicly available registers.
+            open an Account via P2P.com or perform any Transactions on P2P.com.
+            We may also collect Personal Information about you from recordings
+            of telephone conversations between us and you (or your
+            representatives) and from publicly available registers.
           </p>
           <p className="mb-4 text-[16px] font-inter">
             Some of the Personal Information we collect is required by us to
@@ -94,9 +94,9 @@ const PrivacyPolicy = () => {
           </p>
           <ol className="list-decimal pl-5 space-y-4 text-base">
             <li>
-              to allow you to open and operate an Account on P2P.com;
+              to allow you to open and operate an Account on p2p.qunest.com;
             </li>
-            <li>to enable you to complete Transactions on P2P.com;</li>
+            <li>to enable you to complete Transactions on p2p.qunest.com;</li>
             <li>
               to correspond with you in relation to your Account and your
               Transactions;
@@ -209,7 +209,6 @@ const PrivacyPolicy = () => {
             RETENTION OF PERSONAL INFORMATION
           </h2>
           <p className="mb-4 text-[16px] font-inter">
-           
             We will hold your Personal Information only for as long as it is
             necessary for us to do so, having regard to the purposes described
             in this Privacy Policy and our own legal and regulatory
@@ -222,7 +221,6 @@ const PrivacyPolicy = () => {
             from time to time.
           </p>
           <p className="mb-4 text-[16px] font-inter">
-           
             We are authorized to provide for the victim and the involved parties
             in case your account is related to fraudulent activities or legal
             violations.
@@ -231,16 +229,16 @@ const PrivacyPolicy = () => {
           <p className="mb-4 text-[16px] font-inter">
             There may be links from our Site to other sites and resources
             provided by third parties. This Privacy Policy applies only to our
-            Site, and any correspondence had with us via P2P.com. Accessing
-            those third party sites or sources requires you to leave our Site.
-            We do not control those third party sites or any of the content
-            contained therein and you agree that we are in no way responsible or
-            liable for any of those third party sites, including, without
-            limitation, their content, policies, failures, promotions, products,
-            services or actions and/or any damages, losses, failures or problems
-            caused by, related to or arising from those sites. We encourage you
-            to review all policies, rules, terms and regulations, including the
-            privacy policies, of each site that you visit.
+            Site, and any correspondence had with us via p2p.qunest.com.
+            Accessing those third party sites or sources requires you to leave
+            our Site. We do not control those third party sites or any of the
+            content contained therein and you agree that we are in no way
+            responsible or liable for any of those third party sites, including,
+            without limitation, their content, policies, failures, promotions,
+            products, services or actions and/or any damages, losses, failures
+            or problems caused by, related to or arising from those sites. We
+            encourage you to review all policies, rules, terms and regulations,
+            including the privacy policies, of each site that you visit.
           </p>
           <h2 className="text-xl font-semibold mt-6 mb-4">CHANGES</h2>
           <p className="mb-4 text-[16px] font-inter">
@@ -257,9 +255,9 @@ const PrivacyPolicy = () => {
           <p className="mb-4 text-[16px] font-inter">
             You have the right to access your Personal Information to correct,
             update, and block inaccurate and/or incorrect data. To exercise this
-            right, contact us at support@P2P.com. P2P will respond to
-            your request only where this is not inconsistent with our Terms of
-            Use and other legal and regulatory obligations. Within 40 days of
+            right, contact us at contact@qunest.com. P2P will respond to your
+            request only where this is not inconsistent with our Terms of Use
+            and other legal and regulatory obligations. Within 40 days of
             receipt of your written request and payment of a £10 fee, we will
             provide you with your Personal Information, including the purposes
             for which it was used and to whom it was disclosed to in accordance
@@ -269,7 +267,7 @@ const PrivacyPolicy = () => {
           <p className="mb-4 text-[16px] font-inter">
             If you have any questions, comments, or concerns regarding our
             Privacy Policy and/or practices as it or they relate to the
-            Platform, please contact us at support@P2P.com. If you have a
+            Platform, please contact us at contact@qunest.com. If you have a
             complaint about how your Personal Information has been used, please
             contact us in the first instance. If we cannot resolve your
             complaint to your satisfaction, you may complain to the Privacy

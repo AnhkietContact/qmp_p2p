@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="flex flex-col items-center xl:items-start xl:flex-grow">
               {/* Logo */}
               <Image
-                src="/images/LogoFooter.png"
+                src="/images/LogoFooter.svg"
                 width={250}
                 height={250}
                 alt="Logo"
@@ -55,7 +55,7 @@ const Footer = () => {
                     <h3 className="font-semibold text-white font-rubik text-[22px]">
                       {product.name}
                     </h3>
-                    <ul className="flex flex-col md:flex-row items-center text-white font-rubik text-[20px] font-medium space-x-4 mt-4">
+                    <ul className="flex flex-col md:flex-row items-center text-white font-rubik text-[20px] font-medium space-x-4 mt-2">
                       {product.links.map((link, index) => (
                         <li key={index}>
                           <Link
@@ -70,10 +70,15 @@ const Footer = () => {
                   </div>
                 ))}
               </div>
+              <div className="mt-2">
+                <span className="text-white font-rubik text-[16px] font-normal">
+                  Contact us : contact@qunest.com
+                </span>
+              </div>
               {/* Mạng xã hội */}
-              <div className="flex flex-col mb-6 mt-5">
+              {/* <div className="flex flex-col mb-2 mt-2">
                 <span className="font-rubik text-[22px] font-semibold text-white">
-                  Social
+                  Social Network
                 </span>
                 <ul className="space-x-4 flex items-center gap-4 mt-2">
                   {Icon.map((icon) => (
@@ -92,7 +97,7 @@ const Footer = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -144,7 +149,6 @@ export const Products = [
     id: 1,
     name: "Quick Links",
     links: [
-      { label: "Contact", link: "/contact" },
       { label: "Privacy policy", link: "/privacy" },
       { label: "Terms of Service", link: "/terms" },
     ],

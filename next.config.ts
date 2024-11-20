@@ -4,7 +4,7 @@ const nextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true,
-    domains: [""],
+    domains: ["p2p.qunest.com"],
   },
 };
 

@@ -90,7 +90,7 @@ const PrivacyPolicy: React.FC = () => {
             review the Terms to ensure that you understand the terms and
             conditions that apply to your access to, and use of, the Services.
             If you have any questions regarding the use of the Website, please
-            contact support@P2P.com.
+            contact contact@qunest.com.
           </p>
           <p>
             5. The Terms and any terms expressly incorporated herein apply to
@@ -1315,9 +1315,9 @@ const PrivacyPolicy: React.FC = () => {
             </li>
             <li>
               Complaints: If you have any complaints, feedback, or questions,
-              please contact our Customer Service at support@P2P.com. When you
-              contact us, please provide us with your name and email address and
-              any other information we may need to identify you, and the
+              please contact our Customer Service at contact@qunest.com. When
+              you contact us, please provide us with your name and email address
+              and any other information we may need to identify you, and the
               transaction on which you have feedback, questions, or complaints.
             </li>
             <li>
