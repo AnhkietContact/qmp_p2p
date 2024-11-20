@@ -7,9 +7,8 @@ import Advantages from "@/component/Advantages";
 import Features from "@/component/Features";
 import Testimonials from "@/component/Testimonials";
 import Questions from "@/component/Questions";
-import Subscribe from "@/component/Subscribe";
 
-const HomePione = () => {
+const P2PHOME = () => {
   return (
     <MainLayout>
       <section className="py-20">
@@ -367,4 +366,4 @@ const HomePione = () => {
     </MainLayout>
   );
 };
-export default HomePione;
+export default P2PHOME;

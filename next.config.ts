@@ -4,7 +4,7 @@ const nextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true,
-    domains: ["pionegame.io"],
+    domains: [""],
   },
 };
 
