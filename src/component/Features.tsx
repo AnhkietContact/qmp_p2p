@@ -3,7 +3,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <div className="flex flex-wrap lg:flex-nowrap justify-center items-center gap-6 p-4">
+    <div className="grid grid-cols-1 lg:grid-cols-3 space-y-5 lg:space-x-5 lg:space-y-0 justify-items-center gap-6 p-4">
       {Explore.map((item) => (
         <div
           key={item.id}
@@ -19,9 +19,13 @@ const Features = () => {
               className=""
             />
           </div>
-          <h3 className="font-semibold font-rubik text-[24px] text-white">{item.title}</h3>
-          <div className="w-[200px] lg:w-[350px] text-center">
-            <p className="text-[16px] font-rubik text-white mt-2">{item.content}</p>
+          <h3 className="font-semibold font-rubik text-[24px] text-white">
+            {item.title}
+          </h3>
+          <div className="w-full md:max-w-[500px] max-w-[300px] text-center">
+            <p className="text-[16px] font-rubik text-white mt-2">
+              {item.content}
+            </p>
           </div>
         </div>
       ))}

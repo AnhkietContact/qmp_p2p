@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 
 const P2PWorks = () => {
@@ -6,11 +7,14 @@ const P2PWorks = () => {
     <div className="flex justify-center items-center my-10">
       <div className="w-full">
         {/* Tab navigation */}
-        <div data-aos="fade-right" className="flex flex-col md:flex-row md:justify-between space-y-4 items-center mb-6">
-          <span className="font-rubik text-[40px] text-[#FF8311] font-medium">
+        <div
+          data-aos="fade-right"
+          className="flex flex-col lg:flex-row items-center lg:justify-between space-y-4 mb-6"
+        >
+          <span className="font-rubik text-[30px] md:text-[40px] text-[#FF8311] font-medium">
             How P2P works
           </span>
-          <div className=" space-y-4 md:space-x-3">
+          <div className="text-center space-y-3 md:space-x-5">
             <button
               onClick={() => setIsBuySelected(true)}
               className={`font-rubik font-medium text-[20px] flex-1 text-center px-2 py-2 shadow-lg rounded-lg ${
@@ -35,14 +39,14 @@ const P2PWorks = () => {
         </div>
 
         {/* Content */}
-        <div data-aos="fade-left" className="relative overflow-hidden">
+        <div data-aos="zoom-in-down" className="relative overflow-hidden">
           <div
             className={`transition-all duration-500 ease-in-out ${
               isBuySelected ? "translate-x-0" : "translate-x-[-100%]"
             }`}
           >
             {/* Buy Content */}
-            <div className="flex flex-wrap justify-center md:justify-around space-y-6 md:space-y-0 md:space-x-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 space-y-5 lg:space-x-5 lg:space-y-0 justify-items-center ">
               {Cryptocurrency.slice(0, 3).map((item) => (
                 <div
                   key={item.id}
@@ -58,7 +62,9 @@ const P2PWorks = () => {
                   <p className="text-[#FF8311] text-[20px] font-rubik font-medium ">
                     {item.title}
                   </p>
-                  <p className="max-w-[300px] text-center">{item.content}</p>
+                  <p className="w-full md:max-w-[550px] max-w-[300px] text-center">
+                    {item.content}
+                  </p>
                 </div>
               ))}
             </div>
@@ -70,11 +76,11 @@ const P2PWorks = () => {
             } absolute top-0 left-0 w-full`}
           >
             {/* Sell Content */}
-            <div className="flex flex-wrap justify-center md:justify-around space-y-6 md:space-y-0 md:space-x-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 space-y-5 lg:space-x-5 lg:space-y-0 justify-items-center ">
               {Cryptocurrency.slice(3, 6).map((item) => (
                 <div
                   key={item.id}
-                  className="rounded-lg bg-white shadow-lg flex flex-col items-center px-5 py-5"
+                  className="flex flex-col items-center rounded-lg bg-white p-5 shadow-lg"
                 >
                   <div className="w-24 h-24 mb-3">
                     <img
@@ -86,7 +92,9 @@ const P2PWorks = () => {
                   <p className="text-[#FF8311] font-semibold text-center">
                     {item.title}
                   </p>
-                  <p className="max-w-[300px] text-center">{item.content}</p>
+                  <p className="w-full md:max-w-[550px] max-w-[300px] text-center">
+                    {item.content}
+                  </p>
                 </div>
               ))}
             </div>

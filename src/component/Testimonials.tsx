@@ -4,7 +4,7 @@ import Rating from "@mui/material/Rating";
 
 const Testimonials = () => {
   return (
-    <div className="flex flex-wrap lg:flex-nowrap justify-center items-center gap-6 p-4">
+    <div className="grid grid-cols-1 lg:grid-cols-3 space-y-5 lg:space-x-5 lg:space-y-0 justify-items-center gap-6 p-4">
       {Monials.map((item) => (
         <div
           key={item.id}
@@ -23,7 +23,9 @@ const Testimonials = () => {
           </div>
 
           {/* Name and Address */}
-          <h3 className="font-semibold  text-[24px] font-rubik ">{item.name}</h3>
+          <h3 className="font-semibold  text-[24px] font-rubik ">
+            {item.name}
+          </h3>
           <p className="text-[17px] font-rubik mb-2">{item.address}</p>
 
           {/* Rating */}
@@ -32,7 +34,7 @@ const Testimonials = () => {
           </div>
 
           {/* Description */}
-          <div className="w-[250px] lg:w-[350px] text-center">
+          <div className="w-full md:max-w-[500px] max-w-[300px] text-center">
             <p className="text-[16px]  font-rubik mt-2">{item.description}</p>
           </div>
         </div>

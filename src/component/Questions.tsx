@@ -13,14 +13,18 @@ export default function Questions() {
       {Frequently.map((item) => (
         <Accordion
           key={item.id}
-          className="bg-white-opacity-10 transition-all duration-300 w-full lg:w-[45%]" 
+          className="bg-white-opacity-10 transition-all duration-300 w-full lg:w-[45%]"
         >
           <AccordionSummary
-            expandIcon={<ArrowDropDownIcon sx={{ color: "#000", fontSize: 30 }} />}
+            expandIcon={
+              <ArrowDropDownIcon sx={{ color: "#000", fontSize: 30 }} />
+            }
             aria-controls={`panel${item.id}-content`}
             id={`panel${item.id}-header`}
           >
-            <span className="font-rubik font-semibold text-[18px]">{item.title}</span>
+            <span className="font-rubik font-semibold text-[18px]">
+              {item.title}
+            </span>
           </AccordionSummary>
           <AccordionDetails className="font-rubik text-[16px]">
             {item.description}

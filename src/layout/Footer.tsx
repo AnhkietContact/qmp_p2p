@@ -34,6 +34,7 @@ const Footer = () => {
                       alt=""
                       width={200}
                       height={100}
+                      className="transform transition-transform duration-200 ease-in-out hover:translate-y-[-3px]"
                     />
                   </Link>
                   <Link href="">
@@ -42,6 +43,7 @@ const Footer = () => {
                       alt=""
                       width={200}
                       height={100}
+                      className="transform transition-transform duration-200 ease-in-out hover:translate-y-[-3px]"
                     />
                   </Link>
                 </div>
@@ -52,10 +54,10 @@ const Footer = () => {
               <div>
                 {Products.map((product) => (
                   <div key={product.id}>
-                    <h3 className="font-semibold text-white font-rubik text-[22px]">
+                    <h3 className="font-semibold text-white font-rubik text-[18px]">
                       {product.name}
                     </h3>
-                    <ul className="flex flex-col md:flex-row items-center text-white font-rubik text-[20px] font-medium space-x-4 mt-2">
+                    <ul className="flex flex-col md:flex-row items-center text-white font-rubik text-[16px] font-medium space-y-2 md:space-y-0 space-x-4 mt-2">
                       {product.links.map((link, index) => (
                         <li key={index}>
                           <Link
@@ -106,7 +108,7 @@ const Footer = () => {
       <div className="bg-black ">
         <div className="text-center py-5">
           <p className="text-sm text-[#A7A7A7]">
-            Copyright © 2024 Designed by QMP - All Rights Reserved
+            Copyright © 2024 Designed by QMP P2P - All Rights Reserved
           </p>
         </div>
       </div>
