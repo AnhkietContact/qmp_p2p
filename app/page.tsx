@@ -17,9 +17,9 @@ const P2PHOME = () => {
               data-aos="fade-right"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
-              className="flex flex-col  items-center relative z-30"
+              className="flex flex-col items-center md:ml-20 relative z-30"
             >
-              <div className=" md:w-[600px] ">
+              <div className=" md:w-[600px]">
                 <p className="text-[48px] text-[#FF8311] text-center md:text-left font-rubik font-bold">
                   QMP P2P - Financial connection, increasing value
                 </p>

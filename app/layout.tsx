@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>MiniApp</title>
+        <title>QMP P2P</title>
         <link rel="shortcut icon" href="/images/LogoNav.svg" type="image/png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
