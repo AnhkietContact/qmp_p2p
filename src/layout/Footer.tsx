@@ -5,80 +5,78 @@ import React from "react";
 const Footer = () => {
   return (
     <footer data-aos="fade-up" className="bg-gradient-top ">
-      <div className="px-10 py-10">
-        <div className="container">
-          <div className="flex flex-col xl:flex-row items-center gap-20">
-            {/* Logo và mô tả */}
-            <div className="flex flex-col items-center xl:items-start xl:flex-grow">
-              {/* Logo */}
-              <Image
-                src="/images/LogoFooter.svg"
-                width={250}
-                height={250}
-                alt="Logo"
-              />
-              <div className="max-w-[500px] mt-10">
-                <span className="text-white font-rubik text-[22px]">
-                  QMP P2P - Safe, fast and easy digital asset management
-                  solution for all users.
-                </span>
-              </div>
-              <div className="mt-20">
-                <span className="font-rubik font-semibold text-white text-[22px]">
-                  Download
-                </span>
-                <div className="flex flex-col md:flex-row mt-5">
-                  <Link href="/">
-                    <Image
-                      src="/images/AppStore.png"
-                      alt=""
-                      width={200}
-                      height={100}
-                      className="transform transition-transform duration-200 ease-in-out hover:translate-y-[-3px]"
-                    />
-                  </Link>
-                  <Link href="">
-                    <Image
-                      src="/images/GooglePlay.png"
-                      alt=""
-                      width={200}
-                      height={100}
-                      className="transform transition-transform duration-200 ease-in-out hover:translate-y-[-3px]"
-                    />
-                  </Link>
-                </div>
+      <div className="container py-10">
+        <div className="flex flex-col xl:flex-row justify-center md:items-center ">
+          {/* Logo và mô tả */}
+          <div className="flex flex-col items-center xl:items-start xl:flex-grow">
+            {/* Logo */}
+            <Image
+              src="/images/LogoFooter.svg"
+              width={250}
+              height={250}
+              alt=""
+              className="h-auto  w-[70%] md:w-[250px] "
+            />
+            <div className="w-full md:max-w-[500px] text-center xl:text-left mt-5">
+              <span className="text-white font-rubik text-[18px] md:text-[22px]">
+                QMP P2P - Safe, fast and easy digital asset management solution
+                for all users.
+              </span>
+            </div>
+            <div className="mt-5">
+              <span className="font-rubik font-semibold text-white text-[18px] md:text-[22px]">
+                Download
+              </span>
+              <div className="flex mt-5 space-x-4 ">
+                <Link href="/">
+                  <Image
+                    src="/images/AppStore.png"
+                    alt="App Store"
+                    width={200}
+                    height={100}
+                    className="transform transition-transform duration-200 ease-in-out hover:translate-y-[-3px]"
+                  />
+                </Link>
+                <Link href="/">
+                  <Image
+                    src="/images/GooglePlay.png"
+                    alt="Google Play"
+                    width={200}
+                    height={100}
+                    className="transform transition-transform duration-200 ease-in-out hover:translate-y-[-3px]"
+                  />
+                </Link>
               </div>
             </div>
-            {/* Danh sách sản phẩm */}
-            <div>
-              <div>
-                {Products.map((product) => (
-                  <div key={product.id}>
-                    <h3 className="font-semibold text-white font-rubik text-[18px]">
-                      {product.name}
-                    </h3>
-                    <ul className="flex flex-col md:flex-row items-center text-white font-rubik text-[16px] font-medium space-y-2 md:space-y-0 space-x-4 mt-2">
-                      {product.links.map((link, index) => (
-                        <li key={index}>
-                          <Link
-                            href={link.link}
-                            className="hover:text-white focus:text-white"
-                          >
-                            {link.label}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
+          </div>
+          <div className="mt-4">
+            {Products.map((product) => (
+              <div key={product.id} className="flex flex-col items-center">
+                <h3 className="font-semibold text-white font-rubik text-[18px]">
+                  {product.name}
+                </h3>
+                <ul className="flex flex-row text-white font-rubik text-[16px] font-medium space-x-4 mt-2">
+                  {product.links.map((link, index) => (
+                    <li key={index}>
+                      <Link
+                        href={link.link}
+                        className="hover:text-white focus:text-white"
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>{" "}
+                <div className="mt-2">
+                  <span className="text-white font-rubik text-[16px] font-normal">
+                    Contact us : contact@qunest.com
+                  </span>
+                </div>
               </div>
-              <div className="mt-2">
-                <span className="text-white font-rubik text-[16px] font-normal">
-                  Contact us : contact@qunest.com
-                </span>
-              </div>
-              {/* Mạng xã hội */}
-              {/* <div className="flex flex-col mb-2 mt-2">
+            ))}
+          </div>
+          {/* Mạng xã hội */}
+          {/* <div className="flex flex-col mb-2 mt-2">
                 <span className="font-rubik text-[22px] font-semibold text-white">
                   Social Network
                 </span>
@@ -100,8 +98,6 @@ const Footer = () => {
                   ))}
                 </ul>
               </div> */}
-            </div>
-          </div>
         </div>
       </div>
       {/* <hr className="border-t border-white w-full" /> */}

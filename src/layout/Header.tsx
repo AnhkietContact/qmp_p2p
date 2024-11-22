@@ -34,8 +34,8 @@ const Header: React.FC = () => {
   const Scrollheader = [
     { id: 1, label: "Instruct", link: "instruct" },
     { id: 2, label: "Features", link: "features" },
-    { id: 3, label: "Download", link: "download" },
     { id: 4, label: "FAQs", link: "faq" },
+    { id: 3, label: "Download", link: "download" },
     { id: 5, label: "Contact", link: "contact" },
   ];
 
@@ -53,7 +53,7 @@ const Header: React.FC = () => {
                 alt="Logo"
                 width={200}
                 height={200}
-                className="h-auto"
+                className="h-auto w-[50%] md:w-[200px]"
               />
             </Link>
           </div>

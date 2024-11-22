@@ -22,11 +22,11 @@ export default function Questions() {
             aria-controls={`panel${item.id}-content`}
             id={`panel${item.id}-header`}
           >
-            <span className="font-rubik font-semibold text-[18px]">
+            <span className="font-rubik font-semibold text-[16px] md:text-[20px]">
               {item.title}
             </span>
           </AccordionSummary>
-          <AccordionDetails className="font-rubik text-[16px]">
+          <AccordionDetails className="font-rubik text-[16px] md:text-[20px]">
             {item.description}
           </AccordionDetails>
         </Accordion>

@@ -19,10 +19,10 @@ const Features = () => {
               className=""
             />
           </div>
-          <h3 className="font-semibold font-rubik text-[24px] text-white">
+          <h3 className="font-semibold font-rubik text-[18px] md:text-[24px] text-white">
             {item.title}
           </h3>
-          <div className="w-full md:max-w-[500px] max-w-[300px] text-center">
+          <div className="w-full max-w-[300px] md:max-w-[450px] text-center">
             <p className="text-[16px] font-rubik text-white mt-2">
               {item.content}
             </p>

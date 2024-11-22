@@ -22,11 +22,12 @@ const config: Config = {
         "bgImage-Sea": 'url("/image/svg/Bg-Sea.svg")',
         "gradient-right": "linear-gradient(-90deg, #FEFA40 0%, #FF5C00 100%)",
         "gradient-top": "linear-gradient(180deg, #FF7A00 0%, #994900 100%)",
-        'gradient-angular': 'linear-gradient(0deg, #FF8311 0%, #994900 100%)',
+        "gradient-angular": "linear-gradient(0deg, #FF8311 0%, #994900 100%)",
       },
       fontFamily: {
         orbitron: ['"Orbitron"', "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        sonsie: ["Sonsie One", "sans-serif"],
         rubik: ["Rubik", "sans-serif"],
         ibm: ["IBM Plex Sans", "sans-serif"],
       },

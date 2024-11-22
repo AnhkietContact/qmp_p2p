@@ -10,8 +10,8 @@ import Questions from "@/component/Questions";
 const P2PHOME = () => {
   return (
     <>
-      <section className="py-20">
-        <div className=" relative z-30 flex flex-col items-center mt-20 py-10">
+      <section className="mb-10 md:mb-20 mt-10 md:mt-20">
+        <div className=" relative z-30 flex flex-col items-center">
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 justify-center items-center md:space-x-10 ">
             <div
               data-aos="fade-right"
@@ -20,7 +20,7 @@ const P2PHOME = () => {
               className="flex flex-col items-center md:ml-20 relative z-30"
             >
               <div className=" md:w-[600px]">
-                <p className="text-[48px] text-[#FF8311] text-center md:text-left font-rubik font-bold">
+                <p className="text-[32px] md:text-[48px] text-[#FF8311] text-center md:text-left font-rubik font-bold">
                   QMP P2P - Financial connection, increasing value
                 </p>
                 <p className="font-rubik text-center md:text-left text-[20px] text-gray-700 mt-5">
@@ -83,24 +83,24 @@ const P2PHOME = () => {
       <section
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
-        className=" relative z-30"
+        className=" relative z-30 mb-10 md:mb-20 "
       >
         <div className="container">
           <div className="">
             <div className="px-20 rounded-[10px] bg-white border shadow-lg p-5 flex flex-col md:flex-row gap-10 items-center md:justify-between">
               <div className="flex flex-col text-center items-center">
-                <p className="text-[35px] md:text-[48px] font-rubik font-semibold">
+                <p className="text-[32px] md:text-[48px] font-rubik font-semibold">
                   10
                 </p>
                 <p className="text-[20px] md:text-[24px] font-rubik">
-                  Business year
+                  Business years
                 </p>
               </div>
 
               <div className="h-20 md:border-l-2 border-[#FF8311] hidden md:block mx-5 w-full md:w-auto"></div>
 
               <div className="flex flex-col text-center items-center">
-                <p className="text-[35px] md:text-[48px] font-rubik font-semibold">
+                <p className="text-[32px] md:text-[48px] font-rubik font-semibold">
                   10M+
                 </p>
                 <p className="text-[20px] md:text-[24px] font-rubik">
@@ -111,7 +111,7 @@ const P2PHOME = () => {
               <div className="h-20 md:border-l-2 border-[#FF8311] hidden md:block mx-5 w-full md:w-auto"></div>
 
               <div className="flex flex-col text-center items-center">
-                <p className="text-[35px] md:text-[48px] font-rubik font-semibold">
+                <p className="text-[32px] md:text-[48px] font-rubik font-semibold">
                   5M+
                 </p>
                 <p className="text-[20px] md:text-[24px] font-rubik">
@@ -122,14 +122,14 @@ const P2PHOME = () => {
           </div>
         </div>
       </section>
-      <section id="instruct" className="container py-28 mb-20">
-        <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-20 lg:gap-0">
+      <section id="instruct" className="container mb-10 md:mb-20 pt-20">
+        <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-20 lg:gap-0 ">
           <Image
             src="/images/Phone_P2P.svg"
             alt=""
             width={605}
             height={500}
-            className=""
+            className="relative z-30"
             data-aos="fade-right"
           />
           <div data-aos="zoom-in" className=" space-y-5  relative z-30">
@@ -137,7 +137,7 @@ const P2PHOME = () => {
               How it works
             </span>
             <div className="max-w-[500px]">
-              <p className="font-rubik text-[#FF8311] font-medium text-[40px]">
+              <p className="font-rubik text-[#FF8311] font-medium text-[25px] md:text-[40px]">
                 Sell USDQ and receive USD smoothly in just 3 steps
               </p>
             </div>
@@ -146,51 +146,20 @@ const P2PHOME = () => {
             </p>
             <div className="">
               <div className="flex items-center gap-4">
-                <div className="relative w-[44px] h-[50px]">
-                  <Image
-                    src="/images/Ellipse3.png"
-                    alt=""
-                    width={44}
-                    height={50}
-                    className="absolute top-0 left-0"
-                  />
-                  <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  font-semibold">
-                    1
-                  </p>
-                </div>
-                <p className="text-[20px] font-rubik">
+                <p className="font-sonsie text-[#FF8311] font-bold">1</p>
+                <p className="text-[18px] md:text-[20px] font-rubik">
                   Register and verify your account
                 </p>
               </div>
               <div className="flex items-center gap-4">
-                <div className="relative w-[44px] h-[50px]">
-                  <Image
-                    src="/images/Ellipse3.png"
-                    alt=""
-                    width={44}
-                    height={50}
-                    className="absolute top-0 left-0"
-                  />
-                  <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  font-semibold">
-                    2
-                  </p>
-                </div>
-                <p className="text-[20px] font-rubik">Deposit USDQ</p>
+                <p className="font-sonsie text-[#FF8311] font-bold">2</p>
+                <p className="text-[18px] md:text-[20px] font-rubik">
+                  Deposit USDQ
+                </p>
               </div>
               <div className="flex items-center gap-4">
-                <div className="relative w-[44px] h-[50px]">
-                  <Image
-                    src="/images/Ellipse3.png"
-                    alt=""
-                    width={44}
-                    height={50}
-                    className="absolute top-0 left-0"
-                  />
-                  <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  font-semibold">
-                    3
-                  </p>
-                </div>
-                <p className="text-[20px] font-rubik">
+                <p className="font-sonsie text-[#FF8311] font-bold">3</p>
+                <p className="text-[18px] md:text-[20px] font-rubik">
                   Sell USDQ and withdraw USD to bank.
                 </p>
               </div>
@@ -198,18 +167,18 @@ const P2PHOME = () => {
           </div>
         </div>
       </section>
-      <section className="relative z-20">
-        <div data-aos="fade-right" className="container mb-20 relative z-30">
+      <section className="relative z-20 mb-10 md:mb-20 ">
+        <div data-aos="fade-right" className="container relative z-30">
           <div className="rounded-[10px] border bg-white shadow-lg p-5 flex flex-col md:flex-row gap-10 items-center md:justify-between">
-            <div className="flex flex-col md:flex-row md:flex-grow items-center gap-20">
-              <div className="container flex flex-col space-y-3">
+            <div className="flex flex-col md:flex-row md:flex-grow items-center gap-10">
+              <div className="container flex flex-col text-center md:text-left space-y-3">
                 <span className="font-rubik text-[24px] text-[#FF8311]">
                   Benefit
                 </span>
-                <span className="font-rubik text-[40px] font-[40px] text-[#FF8311]">
+                <span className="font-rubik text-[30px] md:text-[40px] text-[#FF8311]">
                   Security & Safety
                 </span>
-                <span className="font-rubik text-[20px]">
+                <span className="font-rubik text=[18px] md:text-[20px]">
                   TOP 15 safest exchanges by CER.live. Your trusted choice!
                 </span>
               </div>
@@ -218,6 +187,7 @@ const P2PHOME = () => {
                 alt="Phone"
                 width={194}
                 height={194}
+                className="w-full h-[194px] "
               />
             </div>
           </div>
@@ -230,7 +200,7 @@ const P2PHOME = () => {
           className="absolute bottom-0 right-0 "
         />
       </section>
-      <section className="relative mb-20">
+      <section className="relative mb-10 md:mb-20">
         <div className="container ">
           <div className="relative z-10">
             <P2PWorks />
@@ -244,20 +214,23 @@ const P2PHOME = () => {
           className="absolute bottom-0 left-0 "
         />
       </section>
-      <section>
-        <div className="container mb-10">
+      <section className=" mb-10 md:mb-20">
+        <div className="container ">
           <div data-aos="fade-right" className="mb-5">
-            <span className="font-rubik font-medium text-[40px] text-[#FF8311]">
+            <span className="font-rubik font-medium text-[30px] md:text-[40px] text-[#FF8311]">
               Advantages of P2P trading platform
             </span>
           </div>
           <Advantages />
         </div>
       </section>
-      <section id="features" className="bg-gradient-angular py-20 mb-20">
-        <div className="container py-20">
-          <div data-aos="fade-down" className="text-center mb-20">
-            <span className="font-semibold font-rubik text-[40px] text-white">
+      <section
+        id="features"
+        className="bg-gradient-angular mb-10 md:mb-20 pt-5"
+      >
+        <div className="container py-20 ">
+          <div data-aos="fade-down" className="text-center mb-10">
+            <span className="font-semibold font-rubik text-[30px] md:text-[40px] text-white">
               Explore the features of QMP P2P
             </span>
           </div>
@@ -266,17 +239,17 @@ const P2PHOME = () => {
           </div>
         </div>
       </section>
-      <section className="mb-10">
+      <section className="mb-10 md:mb-20">
         <div className="container">
           <div
             data-aos="zoom-in-down"
             className="flex flex-col items-center justify-center mb-6"
           >
-            <span className="block text-[40px] font-rubik text-[#FF8311] font-semibold mb-2">
+            <span className="block text-[30px] md:text-[40px] font-rubik text-[#FF8311] font-semibold mb-2">
               Testimonials
             </span>
             <hr className="border-2 border-[#FF8311] w-16" />
-            <span className="font-rubik text-[25px] mt-4">
+            <span className="font-rubik text-[18px] md:text-[25px] mt-4">
               What users are saying about QMP
             </span>
           </div>
@@ -285,17 +258,17 @@ const P2PHOME = () => {
           </div>
         </div>
       </section>
-      <section id="faq" className="mb-10 py-28">
-        <div className="container">
+      <section id="faq" className="mb-10 md:mb-20">
+        <div className="container pt-10 md:pt-24">
           <div
             data-aos="zoom-in-down"
             className="flex flex-col items-center justify-center mb-6"
           >
-            <span className="block text-[40px] font-rubik text-[#FF8311] font-semibold mb-2">
+            <span className="block text-[30px] text-center md:text-left md:text-[40px] font-rubik text-[#FF8311] font-semibold mb-2">
               Frequently Asked Questions
             </span>
             <hr className="border-2 border-[#FF8311] w-16" />
-            <span className="font-rubik text-[20px] mt-4">
+            <span className="font-rubik text-[18px] md:text-[20px] text-center md:text-left mt-4">
               Here are some frequently asked questions users ask when using QMP
             </span>
           </div>
@@ -304,15 +277,18 @@ const P2PHOME = () => {
           </div>
         </div>
       </section>
-      <section id="download" className="bg-gradient-top py-10">
-        <div data-aos="fade-down" className="container py-20">
+      <section
+        id="download"
+        className="bg-gradient-top mb-10 md:mb-20 md:pt-20"
+      >
+        <div data-aos="fade-down" className="container py-10 ">
           <div className="flex flex-col items-center justify-center mb-6">
             <span className="block text-[48px] font-rubik text-white font-semibold mb-2">
               QMP P2P
             </span>
             <hr className="border-2 border-white w-16" />
             <div className="w-full  md:w-[550px] text-center mt-4">
-              <span className="font-rubik text-white text-[20px]">
+              <span className="font-rubik text-white text-[18px] md:text-[20px]">
                 QMP P2P works seamlessly across all devices! Download the app
                 from Google Play Store for Android, or grab it on the App Store
                 for iOS. We’re excited to welcome you to the QMP P2P community!
@@ -341,27 +317,27 @@ const P2PHOME = () => {
           </div>
         </div>
       </section>
-      <section className="">
-        <div className="container py-20">
+      <section className="mb-10 md:mb-20">
+        <div className="container ">
           <div className="flex flex-col items-center justify-center mb-6">
             <div data-aos="zoom-in">
-              <span className="block text-[40px] font-rubik text-[#FF8311] font-semibold mb-2">
+              <span className="block text-[30px] md:text-[40px] text-center md:text-left font-rubik text-[#FF8311] font-semibold mb-2">
                 Subscribe to get updates
               </span>
             </div>
             <hr data-aos="zoom-in" className="border-2 border-[#FF8311] w-16" />
             <div
-              data-aos="zoom-in"
-              className="w-[300px] sm:w-[500px] md:w-[800px] text-center mt-4"
+              // data-aos="zoom-in"
+              className="w-full sm:w-[500px] md:w-[800px] text-center mt-4"
             >
-              <span className="font-rubik text-[20px]">
+              <span className="font-rubik text-[18px] md:text-[20px]">
                 Would you like us to send you regular updates about product
                 features, promotions, and security updates? Input your email
                 address below, and we’ll make sure that we keep you informed.
               </span>
             </div>
             <div
-              data-aos="zoom-in-up"
+              data-aos="zoom-in"
               className="flex flex-col items-center md:w-[450px] space-y-5 mt-5"
             >
               <input

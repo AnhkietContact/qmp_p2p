@@ -23,7 +23,7 @@ const Testimonials = () => {
           </div>
 
           {/* Name and Address */}
-          <h3 className="font-semibold  text-[24px] font-rubik ">
+          <h3 className="font-semibold  text-[18px] md:text-[24px] font-rubik ">
             {item.name}
           </h3>
           <p className="text-[17px] font-rubik mb-2">{item.address}</p>
@@ -35,7 +35,7 @@ const Testimonials = () => {
 
           {/* Description */}
           <div className="w-full md:max-w-[500px] max-w-[300px] text-center">
-            <p className="text-[16px]  font-rubik mt-2">{item.description}</p>
+            <p className="text-[16px] font-rubik mt-2">{item.description}</p>
           </div>
         </div>
       ))}

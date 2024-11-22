@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const P2PWorks = () => {
   const [isBuySelected, setIsBuySelected] = useState(true);
   return (
-    <div className="flex justify-center items-center my-10">
+    <div className="flex justify-center items-center ">
       <div className="w-full">
         {/* Tab navigation */}
         <div
@@ -14,26 +14,26 @@ const P2PWorks = () => {
           <span className="font-rubik text-[30px] md:text-[40px] text-[#FF8311] font-medium">
             How P2P works
           </span>
-          <div className="text-center space-y-3 md:space-x-5">
+          <div className="flex text-center space-x-5 ">
             <button
               onClick={() => setIsBuySelected(true)}
-              className={`font-rubik font-medium text-[20px] flex-1 text-center px-2 py-2 shadow-lg rounded-lg ${
+              className={`font-rubik font-medium text-[15px] md:text-[20px]  text-center px-2 py-2 shadow-lg rounded-lg ${
                 isBuySelected
                   ? "bg-[#FF8311] text-white"
                   : "bg-gray-200 text-gray-600"
               }`}
             >
-              Buy Cryptocurrency
+              <span>Buy Cryptocurrency</span>
             </button>
             <button
               onClick={() => setIsBuySelected(false)}
-              className={`font-rubik font-medium text-[20px] flex-1 text-center px-2 py-2 rounded-lg ${
+              className={`font-rubik font-medium text-[15px] md:text-[20px] text-center px-2 py-2 rounded-lg ${
                 !isBuySelected
                   ? "bg-[#FF8311] text-white"
                   : "bg-gray-200 text-gray-600"
               }`}
             >
-              Sell Cryptocurrency
+              <span>Sell Cryptocurrency</span>
             </button>
           </div>
         </div>
@@ -62,7 +62,7 @@ const P2PWorks = () => {
                   <p className="text-[#FF8311] text-[20px] font-rubik font-medium ">
                     {item.title}
                   </p>
-                  <p className="w-full md:max-w-[550px] max-w-[300px] text-center">
+                  <p className="w-full md:max-w-[550px] max-w-[300px] text-center text-[16px] font-rubik">
                     {item.content}
                   </p>
                 </div>
@@ -92,7 +92,7 @@ const P2PWorks = () => {
                   <p className="text-[#FF8311] font-semibold text-center">
                     {item.title}
                   </p>
-                  <p className="w-full md:max-w-[550px] max-w-[300px] text-center">
+                  <p className="w-full md:max-w-[550px] max-w-[300px] text-center text-[16px] font-rubik">
                     {item.content}
                   </p>
                 </div>
