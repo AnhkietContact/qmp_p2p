@@ -29,14 +29,15 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #FA5805;
+  background: #fa5805;
   transform: scale(1.2); /* Tăng kích thước thanh cuộn */
 }
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
+  scroll-padding-top: 80px;
 }
 body {
   color: var(--foreground);

@@ -122,8 +122,8 @@ const P2PHOME = () => {
           </div>
         </div>
       </section>
-      <section id="instruct" className="container mb-10 md:mb-20 pt-20">
-        <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-20 lg:gap-0 ">
+      <section id="instruct" className="container mb-10 md:mb-20 ">
+        <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-20 lg:gap-0">
           <Image
             src="/images/Phone_P2P.svg"
             alt=""
@@ -224,11 +224,8 @@ const P2PHOME = () => {
           <Advantages />
         </div>
       </section>
-      <section
-        id="features"
-        className="bg-gradient-angular mb-10 md:mb-20 pt-5"
-      >
-        <div className="container py-20 ">
+      <section id="features" className="bg-gradient-angular mb-10 md:mb-20">
+        <div className="container py-20">
           <div data-aos="fade-down" className="text-center mb-10">
             <span className="font-semibold font-rubik text-[30px] md:text-[40px] text-white">
               Explore the features of QMP P2P
@@ -258,8 +255,8 @@ const P2PHOME = () => {
           </div>
         </div>
       </section>
-      <section id="faq" className="mb-10 md:mb-20">
-        <div className="container pt-10 md:pt-24">
+      <section id="faq" className="mb-10 md:mb-20 ">
+        <div className="container py-10 md:py-20">
           <div
             data-aos="zoom-in-down"
             className="flex flex-col items-center justify-center mb-6"
@@ -277,11 +274,8 @@ const P2PHOME = () => {
           </div>
         </div>
       </section>
-      <section
-        id="download"
-        className="bg-gradient-top mb-10 md:mb-20 md:pt-20"
-      >
-        <div data-aos="fade-down" className="container py-10 ">
+      <section id="download" className="bg-gradient-top mb-10 md:mb-20">
+        <div data-aos="fade-down" className="container py-10 md:py-20">
           <div className="flex flex-col items-center justify-center mb-6">
             <span className="block text-[48px] font-rubik text-white font-semibold mb-2">
               QMP P2P
