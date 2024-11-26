@@ -103,7 +103,7 @@ const Footer = () => {
       {/* <hr className="border-t border-white w-full" /> */}
       <div className="bg-black ">
         <div className="text-center py-5">
-          <p className="text-sm text-[#A7A7A7]">
+          <p className="text-sm font-inter text-[20px] text-white">
             Copyright © 2024 Designed by QMP P2P - All Rights Reserved
           </p>
         </div>

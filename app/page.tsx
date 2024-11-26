@@ -12,14 +12,14 @@ const P2PHOME = () => {
     <>
       <section className="mb-10 md:mb-20 mt-10 md:mt-20">
         <div className=" relative z-30 flex flex-col items-center">
-          <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 justify-center items-center md:space-x-10 ">
+          <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 justify-center items-center md:space-x-10 pt-20">
             <div
               data-aos="fade-right"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
               className="flex flex-col items-center md:ml-20 relative z-30"
             >
-              <div className=" md:w-[600px]">
+              <div className="md:w-[600px]">
                 <p className="text-[32px] md:text-[48px] text-[#FF8311] text-center md:text-left font-rubik font-bold">
                   QMP P2P - Financial connection, increasing value
                 </p>
@@ -123,7 +123,7 @@ const P2PHOME = () => {
         </div>
       </section>
       <section id="instruct" className="container mb-10 md:mb-20 ">
-        <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-20 lg:gap-0">
+        <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-20 lg:gap-0 py-10">
           <Image
             src="/images/Phone_P2P.svg"
             alt=""
@@ -256,7 +256,7 @@ const P2PHOME = () => {
         </div>
       </section>
       <section id="faq" className="mb-10 md:mb-20 ">
-        <div className="container py-10 md:py-20">
+        <div className="container py-10">
           <div
             data-aos="zoom-in-down"
             className="flex flex-col items-center justify-center mb-6"
@@ -275,7 +275,7 @@ const P2PHOME = () => {
         </div>
       </section>
       <section id="download" className="bg-gradient-top mb-10 md:mb-20">
-        <div data-aos="fade-down" className="container py-10 md:py-20">
+        <div data-aos="fade-down" className="container py-10">
           <div className="flex flex-col items-center justify-center mb-6">
             <span className="block text-[48px] font-rubik text-white font-semibold mb-2">
               QMP P2P
