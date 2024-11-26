@@ -26,7 +26,7 @@ export default function Questions() {
               {item.title}
             </span>
           </AccordionSummary>
-          <AccordionDetails className="font-rubik text-[16px] md:text-[20px]">
+          <AccordionDetails className="font-rubik text-[16px] md:text-[18px]">
             {item.description}
           </AccordionDetails>
         </Accordion>

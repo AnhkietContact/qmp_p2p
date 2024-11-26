@@ -17,9 +17,9 @@ const P2PWorks = () => {
           <div className="flex text-center space-x-5 ">
             <button
               onClick={() => setIsBuySelected(true)}
-              className={`font-rubik font-medium text-[15px] md:text-[20px]  text-center px-2 py-2 shadow-lg rounded-lg ${
+              className={`font-rubik font-medium text-[15px] md:text-[20px] text-center px-2 py-2  rounded-lg ${
                 isBuySelected
-                  ? "bg-[#FF8311] text-white"
+                  ? "bg-[#FF8311] text-white shadow-md"
                   : "bg-gray-200 text-gray-600"
               }`}
             >
@@ -29,7 +29,7 @@ const P2PWorks = () => {
               onClick={() => setIsBuySelected(false)}
               className={`font-rubik font-medium text-[15px] md:text-[20px] text-center px-2 py-2 rounded-lg ${
                 !isBuySelected
-                  ? "bg-[#FF8311] text-white"
+                  ? "bg-[#FF8311] text-white shadow-md"
                   : "bg-gray-200 text-gray-600"
               }`}
             >

@@ -17,17 +17,17 @@ const P2PHOME = () => {
               data-aos="fade-right"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
-              className="flex flex-col items-center md:ml-20 relative z-30"
+              className="flex flex-col md:ml-20 relative z-30"
             >
               <div className="md:w-[600px]">
-                <p className="text-[32px] md:text-[48px] text-[#FF8311] text-center md:text-left font-rubik font-bold">
+                <p className="text-[32px] md:text-[48px] text-black xl:text-[#FF8311] text-center md:text-left font-rubik font-bold">
                   QMP P2P - Financial connection, increasing value
                 </p>
                 <p className="font-rubik text-center md:text-left text-[20px] text-gray-700 mt-5">
                   Optimize transactions - Transparent profits!
                 </p>
               </div>
-              <div className="flex mt-5 space-x-4 ">
+              <div className="flex items-center mt-5 space-x-4 ">
                 <Link href="/">
                   <Image
                     src="/images/AppStore.png"
@@ -123,7 +123,7 @@ const P2PHOME = () => {
         </div>
       </section>
       <section id="instruct" className="container mb-10 md:mb-20 ">
-        <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-20 lg:gap-0 py-10">
+        <div className="flex flex-col xl:flex-row xl:justify-between items-center gap-20 xl:gap-0 py-10">
           <Image
             src="/images/Phone_P2P.svg"
             alt=""
@@ -132,12 +132,12 @@ const P2PHOME = () => {
             className="relative z-30"
             data-aos="fade-right"
           />
-          <div data-aos="zoom-in" className=" space-y-5  relative z-30">
+          <div data-aos="zoom-in" className=" space-y-5 relative z-30">
             <span className="text-[24px] font-rubik text-[#FF8311]">
               How it works
             </span>
             <div className="max-w-[500px]">
-              <p className="font-rubik text-[#FF8311] font-medium text-[25px] md:text-[40px]">
+              <p className="font-rubik text-[#FF8311] font-medium text-[26px] md:text-[40px]">
                 Sell USDQ and receive USD smoothly in just 3 steps
               </p>
             </div>
@@ -175,7 +175,7 @@ const P2PHOME = () => {
                 <span className="font-rubik text-[24px] text-[#FF8311]">
                   Benefit
                 </span>
-                <span className="font-rubik text-[30px] md:text-[40px] text-[#FF8311]">
+                <span className="font-rubik text-[36px] lg:text-[40px] text-[#FF8311]">
                   Security & Safety
                 </span>
                 <span className="font-rubik text=[18px] md:text-[20px]">
@@ -187,7 +187,7 @@ const P2PHOME = () => {
                 alt="Phone"
                 width={194}
                 height={194}
-                className="w-full h-[194px] "
+                className="w-full h-[150px] md:h-[194px] "
               />
             </div>
           </div>
@@ -322,7 +322,7 @@ const P2PHOME = () => {
             <hr data-aos="zoom-in" className="border-2 border-[#FF8311] w-16" />
             <div
               // data-aos="zoom-in"
-              className="w-full sm:w-[500px] md:w-[800px] text-center mt-4"
+              className="w-full sm:w-[500px] lg:w-[800px] text-center mt-4"
             >
               <span className="font-rubik text-[18px] md:text-[20px]">
                 Would you like us to send you regular updates about product
