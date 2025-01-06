@@ -11,7 +11,7 @@ const P2PWorks = () => {
           data-aos="fade-right"
           className="flex flex-col lg:flex-row items-center lg:justify-between space-y-4 mb-6"
         >
-          <span className="font-rubik text-[30px] md:text-[40px] text-[#FF8311] font-medium">
+          <span className="font-rubik text-[30px] md:text-[40px] text-[#004FB2] font-medium">
             How P2P works
           </span>
           <div className="flex text-center space-x-5 ">
@@ -19,7 +19,7 @@ const P2PWorks = () => {
               onClick={() => setIsBuySelected(true)}
               className={`font-rubik font-medium text-[15px] md:text-[20px] text-center px-2 py-2  rounded-lg ${
                 isBuySelected
-                  ? "bg-[#FF8311] text-white shadow-md"
+                  ? "bg-[#004FB2] text-white shadow-md"
                   : "bg-gray-200 text-gray-600"
               }`}
             >
@@ -29,7 +29,7 @@ const P2PWorks = () => {
               onClick={() => setIsBuySelected(false)}
               className={`font-rubik font-medium text-[15px] md:text-[20px] text-center px-2 py-2 rounded-lg ${
                 !isBuySelected
-                  ? "bg-[#FF8311] text-white shadow-md"
+                  ? "bg-[#004FB2] text-white shadow-md"
                   : "bg-gray-200 text-gray-600"
               }`}
             >
@@ -59,7 +59,7 @@ const P2PWorks = () => {
                       className="w-full h-full object-cover rounded-lg"
                     />
                   </div>
-                  <p className="text-[#FF8311] text-[20px] font-rubik font-medium ">
+                  <p className="text-[#004FB2] text-[20px] font-rubik font-medium ">
                     {item.title}
                   </p>
                   <p className="w-full md:max-w-[550px] max-w-[300px] text-center text-[16px] font-rubik">
@@ -89,7 +89,7 @@ const P2PWorks = () => {
                       className="w-full h-full object-cover rounded-lg"
                     />
                   </div>
-                  <p className="text-[#FF8311] font-semibold text-center">
+                  <p className="text-[#004FB2] font-semibold text-center">
                     {item.title}
                   </p>
                   <p className="w-full md:max-w-[550px] max-w-[300px] text-center text-[16px] font-rubik">

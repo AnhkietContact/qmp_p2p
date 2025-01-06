@@ -8,7 +8,8 @@ const Features = () => {
         <div
           key={item.id}
           data-aos="zoom-in-down"
-          className="flex flex-col items-center border-white border-2 rounded-xl shadow-lg px-5 py-5  "
+          className="flex flex-col items-center border-white border-2 rounded-xl shadow-lg px-5 py-5 
+                     hover:bg-gradient-border transition-all duration-300 ease-in-out"
         >
           <div className="w-20 h-20 mb-4">
             <Image

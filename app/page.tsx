@@ -14,13 +14,13 @@ const P2PHOME = () => {
         <div className=" relative z-30 flex flex-col items-center">
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-0 justify-center items-center md:space-x-10 pt-20">
             <div
-              data-aos="fade-right"
+              data-aos="zoom-in"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
               className="flex flex-col md:ml-20 relative z-30"
             >
               <div className="md:w-[600px]">
-                <p className="text-[32px] md:text-[48px] text-black xl:text-[#FF8311] text-center md:text-left font-rubik font-bold">
+                <p className="text-[32px] md:text-[48px] text-black xl:text-[#004FB2] text-center md:text-left font-rubik font-bold">
                   QMP P2P - Financial connection, increasing value
                 </p>
                 <p className="font-rubik text-center md:text-left text-[20px] text-gray-700 mt-5">
@@ -28,7 +28,7 @@ const P2PHOME = () => {
                 </p>
               </div>
               <div className="flex items-center mt-5 space-x-4 ">
-                <Link href="/">
+                <Link href="https://testflight.apple.com/join/4dc5a6wn">
                   <Image
                     src="/images/AppStore.png"
                     alt="App Store"
@@ -37,7 +37,7 @@ const P2PHOME = () => {
                     className="transform transition-transform duration-200 ease-in-out hover:translate-y-[-3px]"
                   />
                 </Link>
-                <Link href="/">
+                <Link href="https://qmp.world/QMP_P2P.apk">
                   <Image
                     src="/images/GooglePlay.png"
                     alt="Google Play"
@@ -50,7 +50,7 @@ const P2PHOME = () => {
             </div>
 
             <div
-              data-aos="flip-right"
+              data-aos="zoom-in"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
               className="px-5 z-30 relative "
@@ -67,8 +67,8 @@ const P2PHOME = () => {
           <Image
             src="/images/Ellipse1.png"
             alt="Ellipse 1"
-            width={500}
-            height={500}
+            width={600}
+            height={600}
             className="absolute bottom-0 right-0 z-10"
           />
           <Image
@@ -97,7 +97,7 @@ const P2PHOME = () => {
                 </p>
               </div>
 
-              <div className="h-20 md:border-l-2 border-[#FF8311] hidden md:block mx-5 w-full md:w-auto"></div>
+              <div className="h-20 md:border-l-2 border-[#004FB2] hidden md:block mx-5 w-full md:w-auto"></div>
 
               <div className="flex flex-col text-center items-center">
                 <p className="text-[32px] md:text-[48px] font-rubik font-semibold">
@@ -108,7 +108,7 @@ const P2PHOME = () => {
                 </p>
               </div>
 
-              <div className="h-20 md:border-l-2 border-[#FF8311] hidden md:block mx-5 w-full md:w-auto"></div>
+              <div className="h-20 md:border-l-2 border-[#004FB2] hidden md:block mx-5 w-full md:w-auto"></div>
 
               <div className="flex flex-col text-center items-center">
                 <p className="text-[32px] md:text-[48px] font-rubik font-semibold">
@@ -125,19 +125,19 @@ const P2PHOME = () => {
       <section id="instruct" className="container mb-10 md:mb-20 ">
         <div className="flex flex-col xl:flex-row xl:justify-between items-center gap-20 xl:gap-0 py-10">
           <Image
-            src="/images/Phone_P2P.svg"
+            src="/images/Phone_P2P.png"
             alt=""
             width={605}
             height={500}
             className="relative z-30"
-            data-aos="fade-right"
+            data-aos="zoom-in"
           />
           <div data-aos="zoom-in" className=" space-y-5 relative z-30">
-            <span className="text-[24px] font-rubik text-[#FF8311]">
+            <span className="text-[24px] font-rubik text-[#8FC1FF]">
               How it works
             </span>
             <div className="max-w-[500px]">
-              <p className="font-rubik text-[#FF8311] font-medium text-[26px] md:text-[40px]">
+              <p className="font-rubik text-[#004FB2] font-medium text-[26px] md:text-[40px]">
                 Sell USDQ and receive USD smoothly in just 3 steps
               </p>
             </div>
@@ -146,19 +146,19 @@ const P2PHOME = () => {
             </p>
             <div className="">
               <div className="flex items-center gap-4">
-                <p className="font-sonsie text-[#FF8311] font-bold">1</p>
+                <p className="font-sonsie text-[#8FC1FF] font-bold">1</p>
                 <p className="text-[18px] md:text-[20px] font-rubik">
                   Register and verify your account
                 </p>
               </div>
               <div className="flex items-center gap-4">
-                <p className="font-sonsie text-[#FF8311] font-bold">2</p>
+                <p className="font-sonsie text-[#8FC1FF] font-bold">2</p>
                 <p className="text-[18px] md:text-[20px] font-rubik">
                   Deposit USDQ
                 </p>
               </div>
               <div className="flex items-center gap-4">
-                <p className="font-sonsie text-[#FF8311] font-bold">3</p>
+                <p className="font-sonsie text-[#8FC1FF] font-bold">3</p>
                 <p className="text-[18px] md:text-[20px] font-rubik">
                   Sell USDQ and withdraw USD to bank.
                 </p>
@@ -172,10 +172,10 @@ const P2PHOME = () => {
           <div className="rounded-[10px] border bg-white shadow-lg p-5 flex flex-col md:flex-row gap-10 items-center md:justify-between">
             <div className="flex flex-col md:flex-row md:flex-grow items-center gap-10">
               <div className="container flex flex-col text-center md:text-left space-y-3">
-                <span className="font-rubik text-[24px] text-[#FF8311]">
+                <span className="font-rubik text-[24px] text-[#004FB2]">
                   Benefit
                 </span>
-                <span className="font-rubik text-[36px] lg:text-[40px] text-[#FF8311]">
+                <span className="font-rubik text-[36px] lg:text-[40px] text-[#004FB2]">
                   Security & Safety
                 </span>
                 <span className="font-rubik text=[18px] md:text-[20px]">
@@ -193,7 +193,7 @@ const P2PHOME = () => {
           </div>
         </div>
         <Image
-          src="/images/Ellipse4.png"
+          src="/images/Ellipse3.png"
           alt="Ellipse 1"
           width={500}
           height={500}
@@ -214,15 +214,24 @@ const P2PHOME = () => {
           className="absolute bottom-0 left-0 "
         />
       </section>
-      <section className=" mb-10 md:mb-20">
+      <section className="relative mb-10 md:mb-20">
         <div className="container ">
           <div data-aos="fade-right" className="mb-5">
-            <span className="font-rubik font-medium text-[30px] md:text-[40px] text-[#FF8311]">
+            <span className="font-rubik font-medium text-[30px] md:text-[40px] text-[#004FB2]">
               Advantages of P2P trading platform
             </span>
           </div>
-          <Advantages />
+          <div className="relative z-10">
+            <Advantages />
+          </div>
         </div>
+        <Image
+          src="/images/Ellipse4.png"
+          alt="Ellipse 2"
+          width={300}
+          height={300}
+          className="absolute bottom-0 right-0 "
+        />
       </section>
       <section id="features" className="bg-gradient-angular mb-10 md:mb-20">
         <div className="container py-20">
@@ -242,10 +251,10 @@ const P2PHOME = () => {
             data-aos="zoom-in-down"
             className="flex flex-col items-center justify-center mb-6"
           >
-            <span className="block text-[30px] md:text-[40px] font-rubik text-[#FF8311] font-semibold mb-2">
+            <span className="block text-[30px] md:text-[40px] font-rubik text-[#004FB2] font-semibold mb-2">
               Testimonials
             </span>
-            <hr className="border-2 border-[#FF8311] w-16" />
+            <hr className="border-2 border-[#004FB2] w-16" />
             <span className="font-rubik text-[18px] md:text-[25px] mt-4">
               What users are saying about QMP
             </span>
@@ -261,10 +270,10 @@ const P2PHOME = () => {
             data-aos="zoom-in-down"
             className="flex flex-col items-center justify-center mb-6"
           >
-            <span className="block text-[30px] text-center md:text-left md:text-[40px] font-rubik text-[#FF8311] font-semibold mb-2">
+            <span className="block text-[30px] text-center md:text-left md:text-[40px] font-rubik text-[#004FB2] font-semibold mb-2">
               Frequently Asked Questions
             </span>
-            <hr className="border-2 border-[#FF8311] w-16" />
+            <hr className="border-2 border-[#004FB2] w-16" />
             <span className="font-rubik text-[18px] md:text-[20px] text-center md:text-left mt-4">
               Here are some frequently asked questions users ask when using QMP
             </span>
@@ -274,7 +283,7 @@ const P2PHOME = () => {
           </div>
         </div>
       </section>
-      <section id="download" className="bg-gradient-top mb-10 md:mb-20">
+      <section id="download" className="bg-gradient-border mb-10 md:mb-20">
         <div data-aos="fade-down" className="container py-10">
           <div className="flex flex-col items-center justify-center mb-6">
             <span className="block text-[48px] font-rubik text-white font-semibold mb-2">
@@ -290,7 +299,7 @@ const P2PHOME = () => {
             </div>
           </div>
           <div className="flex items-center justify-center mt-5 space-x-4">
-            <Link href="/">
+            <Link href="https://testflight.apple.com/join/4dc5a6wn">
               <Image
                 src="/images/AppStore.png"
                 alt="App Store"
@@ -299,7 +308,7 @@ const P2PHOME = () => {
                 className="transform transition-transform duration-200 ease-in-out hover:translate-y-[-3px]"
               />
             </Link>
-            <Link href="/">
+            <Link href="https://qmp.world/QMP_P2P.apk">
               <Image
                 src="/images/GooglePlay.png"
                 alt="Google Play"
@@ -315,11 +324,11 @@ const P2PHOME = () => {
         <div className="container ">
           <div className="flex flex-col items-center justify-center mb-6">
             <div data-aos="zoom-in">
-              <span className="block text-[30px] md:text-[40px] text-center md:text-left font-rubik text-[#FF8311] font-semibold mb-2">
+              <span className="block text-[30px] md:text-[40px] text-center md:text-left font-rubik text-[#004FB2] font-semibold mb-2">
                 Subscribe to get updates
               </span>
             </div>
-            <hr data-aos="zoom-in" className="border-2 border-[#FF8311] w-16" />
+            <hr data-aos="zoom-in" className="border-2 border-[#004FB2] w-16" />
             <div
               // data-aos="zoom-in"
               className="w-full sm:w-[500px] lg:w-[800px] text-center mt-4"
@@ -339,12 +348,12 @@ const P2PHOME = () => {
                 id="email"
                 name="email"
                 placeholder="Enter your email address"
-                className="w-full  h-[60px] px-2 py-2 border-2 border-gray-300 rounded-lg text-lg placeholder:text-lg placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#FF8311] focus:border-[#FF8311] transition-all duration-300"
+                className="w-full  h-[60px] px-2 py-2 border-2 border-gray-300 rounded-lg text-lg placeholder:text-lg placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#004FB2] focus:border-[#004FB2] transition-all duration-300"
               />
 
               <button
                 type="submit"
-                className="w-full  bg-[#FF8311] text-white px-2 py-2 rounded-lg font-rubik md:text-[18px] font-medium transition-all duration-300 hover:bg-[#ff6a00] focus:outline-none"
+                className="w-fullbg-[#004FB2] text-white px-2 py-2 rounded-lg font-rubik md:text-[18px] font-medium transition-all duration-300  focus:outline-none"
               >
                 Submit
               </button>

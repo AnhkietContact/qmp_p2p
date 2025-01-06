@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer data-aos="fade-up" className="bg-gradient-top ">
+    <footer data-aos="fade-up" className="bg-gradient-Footer">
       <div className="container py-10">
         <div className="flex flex-col xl:flex-row justify-center md:items-center ">
           {/* Logo và mô tả */}
@@ -15,7 +15,7 @@ const Footer = () => {
               width={250}
               height={250}
               alt=""
-              className="h-auto  w-[70%] md:w-[250px] "
+              className="h-auto w-[70%] md:w-[250px] "
             />
             <div className="w-full md:max-w-[500px] text-center xl:text-left mt-5">
               <span className="text-white font-rubik text-[18px] md:text-[22px]">
@@ -28,7 +28,7 @@ const Footer = () => {
                 Download
               </span>
               <div className="flex mt-5 space-x-4 ">
-                <Link href="/">
+                <Link href="https://testflight.apple.com/join/4dc5a6wn">
                   <Image
                     src="/images/AppStore.png"
                     alt="App Store"
@@ -37,7 +37,7 @@ const Footer = () => {
                     className="transform transition-transform duration-200 ease-in-out hover:translate-y-[-3px]"
                   />
                 </Link>
-                <Link href="/">
+                <Link href="https://qmp.world/QMP_P2P.apk">
                   <Image
                     src="/images/GooglePlay.png"
                     alt="Google Play"
@@ -101,9 +101,9 @@ const Footer = () => {
         </div>
       </div>
       {/* <hr className="border-t border-white w-full" /> */}
-      <div className="bg-black ">
+      <div className="bg-white ">
         <div className="text-center py-5">
-          <p className="text-sm font-inter text-[20px] text-white">
+          <p className="text-sm font-inter text-[20px] ">
             Copyright © 2024 Designed by QMP P2P - All Rights Reserved
           </p>
         </div>

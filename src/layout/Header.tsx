@@ -60,7 +60,7 @@ const Header: React.FC = () => {
                 alt="Logo"
                 width={200}
                 height={200}
-                className="h-auto w-[50%] md:w-[200px]"
+                className="h-auto  md:w-[200px] "
               />
             </Link>
           </div>
@@ -72,11 +72,11 @@ const Header: React.FC = () => {
                 key={item.id}
                 href={`#${item.link}`}
                 scroll={false} // Disable Next.js scroll handling for internal links
-                className={`px-4 py-2 font-medium font-rubik text-[20px] ${
+                className={`px-4 py-2 font-rubik font-normal text-[20px] ${
                   item.id === 5
-                    ? "rounded-full bg-gradient-right text-white font-ibm font-semibold"
+                    ? "rounded-full bg-[#004FB2] text-white font-ibm font-semibold"
                     : ""
-                } transform transition-transform duration-200 ease-in-out hover:translate-y-[-3px]`}
+                } transform transition-transform duration-200 ease-in-out hover:translate-y-[-3px] `}
                 onClick={(e) => {
                   e.preventDefault(); // Prevent default behavior (which would add # to URL)
                   handleSmoothScroll(item.link); // Smooth scroll to target element

@@ -23,7 +23,10 @@ const config: Config = {
         "gradient-right": "linear-gradient(-90deg, #FEFA40 0%, #FF5C00 100%)",
         "gradient-not": "linear-gradient(-90deg, #FEFA40 0%, #FF5C00 100%)",
         "gradient-top": "linear-gradient(180deg, #FF7A00 0%, #994900 100%)",
-        "gradient-angular": "linear-gradient(0deg, #FF8311 0%, #994900 100%)",
+        "gradient-border": "linear-gradient(180deg, #11B0FF 0%, #00035A 100%)",
+        "gradient-Footer": "linear-gradient(180deg, #00DDFF 0%, #001299 100%)",
+        "gradient-angular":
+          "conic-gradient(from 105deg at 0% 0%, #000D99,#004FB2)",
       },
       fontFamily: {
         orbitron: ['"Orbitron"', "sans-serif"],
