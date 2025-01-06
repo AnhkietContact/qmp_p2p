@@ -37,7 +37,7 @@ const Footer = () => {
                     className="transform transition-transform duration-200 ease-in-out hover:translate-y-[-3px]"
                   />
                 </Link>
-                <Link href="https://qmp.world/QMP_P2P.apk">
+                <Link href="https://p2p.qunest.com/release/QMP_P2P.apk">
                   <Image
                     src="/images/GooglePlay.png"
                     alt="Google Play"
